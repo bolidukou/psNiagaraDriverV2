@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<package
+  module='psNiagaraDriver'
+  name='com.profileSystems.psNiagaraDriver.circuit.ui'
+>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.ui.BPsNiagaraDriverCircuitManager'>The Point Manager handles adding, editing, and discovering points under the {@link BPointDeviceExt} for a device.</class>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.ui.BPsNiagaraDriverCircuitModel'/>
+</package>
+</bajadoc>

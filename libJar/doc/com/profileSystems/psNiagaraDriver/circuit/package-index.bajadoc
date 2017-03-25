@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<package
+  module='psNiagaraDriver'
+  name='com.profileSystems.psNiagaraDriver.circuit'
+>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitDeviceExt'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitFolder'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitProxyExt'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule'>A list of circuit status </class>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus'>A list of circuit status </class>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum'>A list of circuit status </class>
+</package>
+</bajadoc>

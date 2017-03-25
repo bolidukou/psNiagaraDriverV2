@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitDeviceExt'
+  name='BPsNiagaraDriverCircuitDeviceExt'
+  packageName='com.profileSystems.psNiagaraDriver.circuit'
+>
+<extends module='devDriver' class='com.tridium.ddf.BDdfPointDeviceExt'/>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getDeviceType() -->
+<method name='getDeviceType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+<description>Associates BPsNiagaraPointDeviceExt to BPsNiagaraDevice.</description>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getPointFolderType() -->
+<method name='getPointFolderType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+<description>Associates BPsNiagaraPointDeviceExt to BPsNiagaraDriverCircuitFolder.</description>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getProxyExtType() -->
+<method name='getProxyExtType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+<description>Associates BPsNiagaraPointDeviceExt to BPsNiagaraProxyExt</description>
+</method>
+
+<!-- public baja:javax.baja.util.BFolder getDiscoveryFolder() -->
+<method name='getDiscoveryFolder' public='true'>
+<return module='baja' class='javax.baja.util.BFolder'/>
+<description>This can be left null, depending on how you decide to define
+ the discovery behavior in your driver. We will visit the
+ discovery process in further detail during another day's
+ lesson.</description>
+</method>
+
+<!-- public baja:javax.baja.agent.AgentList getAgents(baja:javax.baja.sys.Context paramContext) -->
+<method name='getAgents' public='true'>
+<parameter name='paramContext' module='baja' class='javax.baja.sys.Context'/>
+<return module='baja' class='javax.baja.agent.AgentList'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

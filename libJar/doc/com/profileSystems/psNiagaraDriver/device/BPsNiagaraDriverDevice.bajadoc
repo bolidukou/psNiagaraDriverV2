@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice'
+  name='BPsNiagaraDriverDevice'
+  packageName='com.profileSystems.psNiagaraDriver.device'
+>
+<extends module='devIpDriver' class='com.tridium.ddfIp.tcp.BDdfTcpDeviceBehindGateway'/>
+
+<!-- property widgets -->
+<property name='widgets' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt'/>
+<description>Slot for the &lt;code&gt;widgets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getWidgets</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setWidgets</tag>
+</property>
+
+<!-- property circuitWidgets -->
+<property name='circuitWidgets' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetDeviceExt'/>
+<description>Slot for the &lt;code&gt;circuitWidgets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getCircuitWidgets</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setCircuitWidgets</tag>
+</property>
+
+<!-- property deviceId -->
+<property name='deviceId' flags=''>
+<type module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<description>Slot for the &lt;code&gt;deviceId&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getDeviceId</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setDeviceId</tag>
+</property>
+
+<!-- property deviceName -->
+<property name='deviceName' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;deviceName&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getDeviceName</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setDeviceName</tag>
+</property>
+
+<!-- property location -->
+<property name='location' flags='r'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation'/>
+<description>Slot for the &lt;code&gt;location&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getLocation</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setLocation</tag>
+</property>
+
+<!-- property signalStrength -->
+<property name='signalStrength' flags='r'>
+<type class='int'/>
+<description>Slot for the &lt;code&gt;signalStrength&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getSignalStrength</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setSignalStrength</tag>
+</property>
+
+<!-- property ACPower -->
+<property name='ACPower' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;ACPower&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#getACPower</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#setACPower</tag>
+</property>
+
+<!-- action QueryName -->
+<action name='QueryName' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;QueryName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryName()</tag>
+</action>
+
+<!-- action QueryLocation -->
+<action name='QueryLocation' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;QueryLocation&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryLocation()</tag>
+</action>
+
+<!-- action SetName -->
+<action name='SetName' flags=''>
+<parameter name='arg' module='baja' class='javax.baja.sys.BString'/>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;SetName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#SetName()</tag>
+</action>
+
+<!-- action SetTime -->
+<action name='SetTime' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;SetTime&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#SetTime()</tag>
+</action>
+
+<!-- action SetLocation -->
+<action name='SetLocation' flags=''>
+<parameter name='arg' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'/>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;SetLocation&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#SetLocation()</tag>
+</action>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt getWidgets() -->
+<method name='getWidgets' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt'/>
+<description>Get the &lt;code&gt;widgets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#widgets</tag>
+</method>
+
+<!-- public void setWidgets(psNiagaraDriver:com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt v) -->
+<method name='setWidgets' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;widgets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#widgets</tag>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetDeviceExt getCircuitWidgets() -->
+<method name='getCircuitWidgets' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetDeviceExt'/>
+<description>Get the &lt;code&gt;circuitWidgets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#circuitWidgets</tag>
+</method>
+
+<!-- public void setCircuitWidgets(psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetDeviceExt v) -->
+<method name='setCircuitWidgets' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetDeviceExt'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;circuitWidgets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#circuitWidgets</tag>
+</method>
+
+<!-- public devDriver:com.tridium.ddf.identify.BDdfIdParams getDeviceId() -->
+<method name='getDeviceId' public='true'>
+<return module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<description>Get the &lt;code&gt;deviceId&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#deviceId</tag>
+</method>
+
+<!-- public void setDeviceId(devDriver:com.tridium.ddf.identify.BDdfIdParams v) -->
+<method name='setDeviceId' public='true'>
+<parameter name='v' module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;deviceId&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#deviceId</tag>
+</method>
+
+<!-- public java.lang.String getDeviceName() -->
+<method name='getDeviceName' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;deviceName&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#deviceName</tag>
+</method>
+
+<!-- public void setDeviceName(java.lang.String v) -->
+<method name='setDeviceName' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;deviceName&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#deviceName</tag>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation getLocation() -->
+<method name='getLocation' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation'/>
+<description>Get the &lt;code&gt;location&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#location</tag>
+</method>
+
+<!-- public void setLocation(psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation v) -->
+<method name='setLocation' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;location&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#location</tag>
+</method>
+
+<!-- public int getSignalStrength() -->
+<method name='getSignalStrength' public='true'>
+<return class='int'/>
+<description>Get the &lt;code&gt;signalStrength&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#signalStrength</tag>
+</method>
+
+<!-- public void setSignalStrength(int v) -->
+<method name='setSignalStrength' public='true'>
+<parameter name='v' class='int'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;signalStrength&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#signalStrength</tag>
+</method>
+
+<!-- public java.lang.String getACPower() -->
+<method name='getACPower' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;ACPower&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#ACPower</tag>
+</method>
+
+<!-- public void setACPower(java.lang.String v) -->
+<method name='setACPower' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;ACPower&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#ACPower</tag>
+</method>
+
+<!-- public void QueryName() -->
+<method name='QueryName' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;QueryName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryName</tag>
+</method>
+
+<!-- public void QueryLocation() -->
+<method name='QueryLocation' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;QueryLocation&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryLocation</tag>
+</method>
+
+<!-- public void SetName(baja:javax.baja.sys.BString arg) -->
+<method name='SetName' public='true'>
+<parameter name='arg' module='baja' class='javax.baja.sys.BString'/>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;SetName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#SetName</tag>
+</method>
+
+<!-- public void SetTime() -->
+<method name='SetTime' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;SetTime&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#SetTime</tag>
+</method>
+
+<!-- public void SetLocation(psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams arg) -->
+<method name='SetLocation' public='true'>
+<parameter name='arg' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'/>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;SetLocation&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#SetLocation</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getNetworkType() -->
+<method name='getNetworkType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getDeviceType() -->
+<method name='getDeviceType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getDeviceFolderType() -->
+<method name='getDeviceFolderType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public void trace(java.lang.String message) -->
+<method name='trace' public='true'>
+<parameter name='message' class='java.lang.String'/>
+<return class='void'/>
+</method>
+
+<!-- public void doQueryName() -->
+<method name='doQueryName' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doQueryStatus() -->
+<method name='doQueryStatus' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doQueryLocation() -->
+<method name='doQueryLocation' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doSetTime() -->
+<method name='doSetTime' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doSetLocation(psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams location) -->
+<method name='doSetLocation' public='true'>
+<parameter name='location' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'/>
+<return class='void'/>
+</method>
+
+<!-- public void doSetName(baja:javax.baja.sys.BString name) -->
+<method name='doSetName' public='true'>
+<parameter name='name' module='baja' class='javax.baja.sys.BString'/>
+<return class='void'/>
+</method>
+
+<!-- public void doSync() -->
+<method name='doSync' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doCheckUnitStatus(int attempt, java.lang.String lastFrameReceived, java.lang.String maxRetry, java.lang.String expireTime) -->
+<method name='doCheckUnitStatus' public='true'>
+<parameter name='attempt' class='int'/>
+<parameter name='lastFrameReceived' class='java.lang.String'/>
+<parameter name='maxRetry' class='java.lang.String'/>
+<parameter name='expireTime' class='java.lang.String'/>
+<return class='void'/>
+</method>
+
+<!-- public void communicate(psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverCustomRequest request) -->
+<method name='communicate' public='true'>
+<parameter name='request' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverCustomRequest'/>
+<return class='void'/>
+</method>
+
+<!-- public void doRead() -->
+<method name='doRead' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

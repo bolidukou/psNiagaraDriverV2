@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler'
+  name='BPsNiagaraDriverPollScheduler'
+  packageName='com.profileSystems.psNiagaraDriver.comm'
+>
+<extends module='devDriver' class='com.tridium.ddf.poll.BDdfPollScheduler'/>
+
+<!-- property slowRate -->
+<property name='slowRate' flags=''>
+<type module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Slot for the &lt;code&gt;slowRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#getSlowRate</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#setSlowRate</tag>
+</property>
+
+<!-- property normalRate -->
+<property name='normalRate' flags=''>
+<type module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Slot for the &lt;code&gt;normalRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#getNormalRate</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#setNormalRate</tag>
+</property>
+
+<!-- property fastRate -->
+<property name='fastRate' flags=''>
+<type module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Slot for the &lt;code&gt;fastRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#getFastRate</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#setFastRate</tag>
+</property>
+
+<!-- public baja:javax.baja.sys.BRelTime getSlowRate() -->
+<method name='getSlowRate' public='true'>
+<return module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Get the &lt;code&gt;slowRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#slowRate</tag>
+</method>
+
+<!-- public void setSlowRate(baja:javax.baja.sys.BRelTime v) -->
+<method name='setSlowRate' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BRelTime'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;slowRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#slowRate</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.BRelTime getNormalRate() -->
+<method name='getNormalRate' public='true'>
+<return module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Get the &lt;code&gt;normalRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#normalRate</tag>
+</method>
+
+<!-- public void setNormalRate(baja:javax.baja.sys.BRelTime v) -->
+<method name='setNormalRate' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BRelTime'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;normalRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#normalRate</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.BRelTime getFastRate() -->
+<method name='getFastRate' public='true'>
+<return module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Get the &lt;code&gt;fastRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#fastRate</tag>
+</method>
+
+<!-- public void setFastRate(baja:javax.baja.sys.BRelTime v) -->
+<method name='setFastRate' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BRelTime'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;fastRate&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler#fastRate</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<package
+  module='psNiagaraDriver'
+  name='com.profileSystems.psNiagaraDriver.Widget'
+>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsACPower'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsAlarmLL'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsAlarmPercent'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtAAmps'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtABaseline'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtAWatts'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtBAmps'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtBBaseline'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtBWatts'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtCAmps'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtCBaseline'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtCWatts'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsBaseTotalWatts'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsFcCommand'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsFcLevel'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsFcOutput'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsFcSetpoint'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsLocalTime'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetFolder'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetManager'>The Point Manager handles adding, editing, and discovering points under the {@link BPointDeviceExt} for a device.</class>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetModel'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsPanelSTPT'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsPanelTemp'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsPowerFactor'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsPowerLoss'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSunrise'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSunriseOffset'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSunriseOffsetToday'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSunset'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSunsetOffset'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSunsetOffsetToday'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSystemFault'/>
+<class qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsVolts'/>
+</package>
+</bajadoc>

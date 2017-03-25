@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt'
+  name='BPsNiagaraDriverWidgetProxyExt'
+  packageName='com.profileSystems.psNiagaraDriver.Widget'
+>
+<extends module='devDriver' class='com.tridium.ddf.point.BDdfProxyExt'/>
+
+<!-- property pointId -->
+<property name='pointId' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId'/>
+<description>Slot for the &lt;code&gt;pointId&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#getPointId</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#setPointId</tag>
+</property>
+
+<!-- property readParameters -->
+<property name='readParameters' flags=''>
+<type module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<description>Slot for the &lt;code&gt;readParameters&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#getReadParameters</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#setReadParameters</tag>
+</property>
+
+<!-- property writeParameters -->
+<property name='writeParameters' flags=''>
+<type module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<description>Slot for the &lt;code&gt;writeParameters&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#getWriteParameters</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#setWriteParameters</tag>
+</property>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId getPointId() -->
+<method name='getPointId' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId'/>
+<description>Get the &lt;code&gt;pointId&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#pointId</tag>
+</method>
+
+<!-- public void setPointId(psNiagaraDriver:com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId v) -->
+<method name='setPointId' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;pointId&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#pointId</tag>
+</method>
+
+<!-- public devDriver:com.tridium.ddf.identify.BDdfIdParams getReadParameters() -->
+<method name='getReadParameters' public='true'>
+<return module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<description>Get the &lt;code&gt;readParameters&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#readParameters</tag>
+</method>
+
+<!-- public void setReadParameters(devDriver:com.tridium.ddf.identify.BDdfIdParams v) -->
+<method name='setReadParameters' public='true'>
+<parameter name='v' module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;readParameters&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#readParameters</tag>
+</method>
+
+<!-- public devDriver:com.tridium.ddf.identify.BDdfIdParams getWriteParameters() -->
+<method name='getWriteParameters' public='true'>
+<return module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<description>Get the &lt;code&gt;writeParameters&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#writeParameters</tag>
+</method>
+
+<!-- public void setWriteParameters(devDriver:com.tridium.ddf.identify.BDdfIdParams v) -->
+<method name='setWriteParameters' public='true'>
+<parameter name='v' module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;writeParameters&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt#writeParameters</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getDeviceExtType() -->
+<method name='getDeviceExtType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+<description>This associates BPsNiagaraDeviceExt with BPsNiagaraProxyExt within the
+ Niagara AX framework.</description>
+</method>
+
+<!-- public byte[] getWriteByteArray() -->
+<method name='getWriteByteArray' public='true'>
+<return class='byte' dimension='1'/>
+</method>
+
+<!-- public baja:javax.baja.status.BStatusValue getReadValue(psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct response) -->
+<method name='getReadValue' public='true'>
+<parameter name='response' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct'/>
+<return module='baja' class='javax.baja.status.BStatusValue'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

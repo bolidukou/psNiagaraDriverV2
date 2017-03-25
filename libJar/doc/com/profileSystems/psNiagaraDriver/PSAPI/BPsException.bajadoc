@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'
+  name='BPsException'
+  packageName='com.profileSystems.psNiagaraDriver.PSAPI'
+  category='exception'
+>
+<tag name='author'>wzhou APIException Class</tag>
+<extends module='baja' class='javax.baja.sys.BajaException'/>
+
+<!-- public BPsException() -->
+<constructor name='BPsException' public='true'>
+</constructor>
+
+<!-- public BPsException(java.lang.String message) -->
+<constructor name='BPsException' public='true'>
+<parameter name='message' class='java.lang.String'/>
+</constructor>
+
+<!-- public BPsException(java.lang.Throwable paramThrowable) -->
+<constructor name='BPsException' public='true'>
+<parameter name='paramThrowable' class='java.lang.Throwable'/>
+</constructor>
+
+<!-- public BPsException(java.lang.String paramString, java.lang.Throwable paramThrowable) -->
+<constructor name='BPsException' public='true'>
+<parameter name='paramString' class='java.lang.String'/>
+<parameter name='paramThrowable' class='java.lang.Throwable'/>
+</constructor>
+
+<!-- public java.lang.String getError() -->
+<method name='getError' public='true'>
+<return class='java.lang.String'/>
+</method>
+
+</class>
+</bajadoc>

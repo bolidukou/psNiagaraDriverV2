@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'
+  name='BPsNiagaraDriverDeviceLocationState'
+  packageName='com.profileSystems.psNiagaraDriver.device.Location'
+  final='true'
+>
+<extends module='baja' class='javax.baja.sys.BFrozenEnum'/>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState make(int ordinal) -->
+<method name='make' public='true' static='true'>
+<parameter name='ordinal' class='int'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>Factory method with ordinal.</description>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState make(java.lang.String tag) -->
+<method name='make' public='true' static='true'>
+<parameter name='tag' class='java.lang.String'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>Factory method with tag.</description>
+</method>
+
+<!-- public final static int ALABAMA -->
+<field name='ALABAMA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Alabama.</description>
+</field>
+
+<!-- public final static int ALASKA -->
+<field name='ALASKA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Alaska.</description>
+</field>
+
+<!-- public final static int ARIZONA -->
+<field name='ARIZONA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Arizona.</description>
+</field>
+
+<!-- public final static int ARKANSAS -->
+<field name='ARKANSAS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Arkansas.</description>
+</field>
+
+<!-- public final static int CALIFORNIA -->
+<field name='CALIFORNIA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for California.</description>
+</field>
+
+<!-- public final static int COLORADO -->
+<field name='COLORADO' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Colorado.</description>
+</field>
+
+<!-- public final static int CONNECTICUT -->
+<field name='CONNECTICUT' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Connecticut.</description>
+</field>
+
+<!-- public final static int DELAWARE -->
+<field name='DELAWARE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Delaware.</description>
+</field>
+
+<!-- public final static int FLORIDA -->
+<field name='FLORIDA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Florida.</description>
+</field>
+
+<!-- public final static int GEORGIA -->
+<field name='GEORGIA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Georgia.</description>
+</field>
+
+<!-- public final static int HAWAII -->
+<field name='HAWAII' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Hawaii.</description>
+</field>
+
+<!-- public final static int IDAHO -->
+<field name='IDAHO' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Idaho.</description>
+</field>
+
+<!-- public final static int ILLINOIS -->
+<field name='ILLINOIS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Illinois.</description>
+</field>
+
+<!-- public final static int INDIANA -->
+<field name='INDIANA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Indiana.</description>
+</field>
+
+<!-- public final static int IOWA -->
+<field name='IOWA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Iowa.</description>
+</field>
+
+<!-- public final static int KANSAS -->
+<field name='KANSAS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Kansas.</description>
+</field>
+
+<!-- public final static int KENTUCKY -->
+<field name='KENTUCKY' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Kentucky.</description>
+</field>
+
+<!-- public final static int LOUISIANA -->
+<field name='LOUISIANA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Louisiana.</description>
+</field>
+
+<!-- public final static int MAINE -->
+<field name='MAINE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Maine.</description>
+</field>
+
+<!-- public final static int MARYLAND -->
+<field name='MARYLAND' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Maryland.</description>
+</field>
+
+<!-- public final static int MASSACHUSETTS -->
+<field name='MASSACHUSETTS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Massachusetts.</description>
+</field>
+
+<!-- public final static int MICHIGAN -->
+<field name='MICHIGAN' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Michigan.</description>
+</field>
+
+<!-- public final static int MINNESOTA -->
+<field name='MINNESOTA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Minnesota.</description>
+</field>
+
+<!-- public final static int MISSISSIPPI -->
+<field name='MISSISSIPPI' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Mississippi.</description>
+</field>
+
+<!-- public final static int MISSOURI -->
+<field name='MISSOURI' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Missouri.</description>
+</field>
+
+<!-- public final static int MONTANA -->
+<field name='MONTANA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Montana.</description>
+</field>
+
+<!-- public final static int NEBRASKA -->
+<field name='NEBRASKA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Nebraska.</description>
+</field>
+
+<!-- public final static int NEVADA -->
+<field name='NEVADA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Nevada.</description>
+</field>
+
+<!-- public final static int NEW_HAMPSHIRE -->
+<field name='NEW_HAMPSHIRE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for NewHampshire.</description>
+</field>
+
+<!-- public final static int NEW_JERSEY -->
+<field name='NEW_JERSEY' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for NewJersey.</description>
+</field>
+
+<!-- public final static int NEW_MEXICO -->
+<field name='NEW_MEXICO' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for NewMexico.</description>
+</field>
+
+<!-- public final static int NEW_YORK -->
+<field name='NEW_YORK' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for NewYork.</description>
+</field>
+
+<!-- public final static int NORTH_CAROLINA -->
+<field name='NORTH_CAROLINA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for NorthCarolina.</description>
+</field>
+
+<!-- public final static int NORTH_DAKOTA -->
+<field name='NORTH_DAKOTA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for NorthDakota.</description>
+</field>
+
+<!-- public final static int OHIO -->
+<field name='OHIO' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Ohio.</description>
+</field>
+
+<!-- public final static int OKLAHOMA -->
+<field name='OKLAHOMA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Oklahoma.</description>
+</field>
+
+<!-- public final static int OREGON -->
+<field name='OREGON' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Oregon.</description>
+</field>
+
+<!-- public final static int PENNSYLVANIA -->
+<field name='PENNSYLVANIA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Pennsylvania.</description>
+</field>
+
+<!-- public final static int RHODE_ISLAND -->
+<field name='RHODE_ISLAND' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for RhodeIsland.</description>
+</field>
+
+<!-- public final static int SOUTH_CAROLINA -->
+<field name='SOUTH_CAROLINA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SouthCarolina.</description>
+</field>
+
+<!-- public final static int SOUTH_DAKOTA -->
+<field name='SOUTH_DAKOTA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SouthDakota.</description>
+</field>
+
+<!-- public final static int TENNESSEE -->
+<field name='TENNESSEE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Tennessee.</description>
+</field>
+
+<!-- public final static int TEXAS -->
+<field name='TEXAS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Texas.</description>
+</field>
+
+<!-- public final static int UTAH -->
+<field name='UTAH' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Utah.</description>
+</field>
+
+<!-- public final static int VERMONT -->
+<field name='VERMONT' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Vermont.</description>
+</field>
+
+<!-- public final static int VIRGINIA -->
+<field name='VIRGINIA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Virginia.</description>
+</field>
+
+<!-- public final static int WASHINGTON -->
+<field name='WASHINGTON' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Washington.</description>
+</field>
+
+<!-- public final static int WEST_VIRGINIA -->
+<field name='WEST_VIRGINIA' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for WestVirginia.</description>
+</field>
+
+<!-- public final static int WISCONSIN -->
+<field name='WISCONSIN' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Wisconsin.</description>
+</field>
+
+<!-- public final static int WYOMING -->
+<field name='WYOMING' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Wyoming.</description>
+</field>
+
+<!-- public final static int OTHER -->
+<field name='OTHER' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Other.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Alabama -->
+<field name='Alabama' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Alabama.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Alaska -->
+<field name='Alaska' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Alaska.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Arizona -->
+<field name='Arizona' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Arizona.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Arkansas -->
+<field name='Arkansas' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Arkansas.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState California -->
+<field name='California' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for California.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Colorado -->
+<field name='Colorado' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Colorado.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Connecticut -->
+<field name='Connecticut' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Connecticut.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Delaware -->
+<field name='Delaware' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Delaware.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Florida -->
+<field name='Florida' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Florida.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Georgia -->
+<field name='Georgia' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Georgia.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Hawaii -->
+<field name='Hawaii' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Hawaii.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Idaho -->
+<field name='Idaho' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Idaho.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Illinois -->
+<field name='Illinois' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Illinois.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Indiana -->
+<field name='Indiana' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Indiana.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Iowa -->
+<field name='Iowa' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Iowa.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Kansas -->
+<field name='Kansas' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Kansas.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Kentucky -->
+<field name='Kentucky' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Kentucky.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Louisiana -->
+<field name='Louisiana' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Louisiana.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Maine -->
+<field name='Maine' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Maine.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Maryland -->
+<field name='Maryland' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Maryland.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Massachusetts -->
+<field name='Massachusetts' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Massachusetts.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Michigan -->
+<field name='Michigan' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Michigan.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Minnesota -->
+<field name='Minnesota' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Minnesota.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Mississippi -->
+<field name='Mississippi' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Mississippi.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Missouri -->
+<field name='Missouri' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Missouri.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Montana -->
+<field name='Montana' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Montana.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Nebraska -->
+<field name='Nebraska' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Nebraska.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Nevada -->
+<field name='Nevada' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Nevada.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState NewHampshire -->
+<field name='NewHampshire' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for NewHampshire.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState NewJersey -->
+<field name='NewJersey' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for NewJersey.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState NewMexico -->
+<field name='NewMexico' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for NewMexico.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState NewYork -->
+<field name='NewYork' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for NewYork.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState NorthCarolina -->
+<field name='NorthCarolina' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for NorthCarolina.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState NorthDakota -->
+<field name='NorthDakota' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for NorthDakota.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Ohio -->
+<field name='Ohio' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Ohio.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Oklahoma -->
+<field name='Oklahoma' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Oklahoma.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Oregon -->
+<field name='Oregon' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Oregon.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Pennsylvania -->
+<field name='Pennsylvania' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Pennsylvania.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState RhodeIsland -->
+<field name='RhodeIsland' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for RhodeIsland.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState SouthCarolina -->
+<field name='SouthCarolina' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for SouthCarolina.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState SouthDakota -->
+<field name='SouthDakota' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for SouthDakota.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Tennessee -->
+<field name='Tennessee' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Tennessee.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Texas -->
+<field name='Texas' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Texas.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Utah -->
+<field name='Utah' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Utah.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Vermont -->
+<field name='Vermont' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Vermont.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Virginia -->
+<field name='Virginia' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Virginia.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Washington -->
+<field name='Washington' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Washington.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState WestVirginia -->
+<field name='WestVirginia' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for WestVirginia.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Wisconsin -->
+<field name='Wisconsin' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Wisconsin.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Wyoming -->
+<field name='Wyoming' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Wyoming.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState Other -->
+<field name='Other' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>BPsNiagaraDriverDeviceLocationState constant for Other.</description>
+</field>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState DEFAULT -->
+<field name='DEFAULT' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+</field>
+
+</class>
+</bajadoc>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct'
+  name='BPsAPIObejct'
+  packageName='com.profileSystems.psNiagaraDriver.PSAPI'
+>
+<extends class='java.lang.Object'/>
+
+<!-- public byte[] ToByteArray() throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='ToByteArray' public='true'>
+<return class='byte' dimension='1'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+</method>
+
+<!-- public java.lang.String toString() -->
+<method name='toString' public='true'>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public java.lang.String GetStatusString(baja:javax.baja.sys.Type type) -->
+<method name='GetStatusString' public='true'>
+<parameter name='type' module='baja' class='javax.baja.sys.Type'/>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public java.lang.String GetStatusString(baja:javax.baja.sys.Type type, int slotNo) -->
+<method name='GetStatusString' public='true'>
+<parameter name='type' module='baja' class='javax.baja.sys.Type'/>
+<parameter name='slotNo' class='int'/>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public static boolean Validate(byte[] data) -->
+<method name='Validate' public='true' static='true'>
+<parameter name='data' class='byte' dimension='1'/>
+<return class='boolean'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct Parse(byte[] data) throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='Parse' public='true' static='true'>
+<parameter name='data' class='byte' dimension='1'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct Parse(byte[] data, int datasize) throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='Parse' public='true' static='true'>
+<parameter name='data' class='byte' dimension='1'/>
+<parameter name='datasize' class='int'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct Parse(java.lang.String stringValue) throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='Parse' public='true' static='true'>
+<parameter name='stringValue' class='java.lang.String'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsAPIObejct'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+</method>
+
+<!-- public int UnitAddress -->
+<field name='UnitAddress' public='true'>
+<type class='int'/>
+</field>
+
+<!-- public java.lang.String Payload -->
+<field name='Payload' public='true'>
+<type class='java.lang.String'/>
+</field>
+
+<!-- public baja:javax.baja.util.Array Parameters -->
+<field name='Parameters' public='true'>
+<type module='baja' class='javax.baja.util.Array'/>
+</field>
+
+</class>
+</bajadoc>

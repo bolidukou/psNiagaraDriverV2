@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator'
+  name='BPsNiagaraDriverCommunicator'
+  packageName='com.profileSystems.psNiagaraDriver.comm'
+>
+<extends module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.multipleTransaction.BDdfTcpMutCommunicator'/>
+
+<!-- property receiver -->
+<property name='receiver' flags=''>
+<type module='devDriver' class='com.tridium.ddf.comm.defaultComm.BDdfReceiver'/>
+<description>Slot for the &lt;code&gt;receiver&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#getReceiver</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#setReceiver</tag>
+</property>
+
+<!-- property pollScheduler -->
+<property name='pollScheduler' flags=''>
+<type module='devDriver' class='com.tridium.ddf.poll.BDdfPollScheduler'/>
+<description>Slot for the &lt;code&gt;pollScheduler&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#getPollScheduler</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#setPollScheduler</tag>
+</property>
+
+<!-- property transmitter -->
+<property name='transmitter' flags=''>
+<type module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpTransmitter'/>
+<description>Slot for the &lt;code&gt;transmitter&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#getTransmitter</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#setTransmitter</tag>
+</property>
+
+<!-- property tcpIpComm -->
+<property name='tcpIpComm' flags=''>
+<type module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpHelper'/>
+<description>Slot for the &lt;code&gt;tcpIpComm&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#getTcpIpComm</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#setTcpIpComm</tag>
+</property>
+
+<!-- property unsolicitedMgr -->
+<property name='unsolicitedMgr' flags=''>
+<type module='devDriver' class='com.tridium.ddf.comm.defaultComm.BDdfUnsolicitedMgr'/>
+<description>Slot for the &lt;code&gt;unsolicitedMgr&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#getUnsolicitedMgr</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#setUnsolicitedMgr</tag>
+</property>
+
+<!-- public devDriver:com.tridium.ddf.comm.defaultComm.BDdfReceiver getReceiver() -->
+<method name='getReceiver' public='true'>
+<return module='devDriver' class='com.tridium.ddf.comm.defaultComm.BDdfReceiver'/>
+<description>Get the &lt;code&gt;receiver&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#receiver</tag>
+</method>
+
+<!-- public void setReceiver(devDriver:com.tridium.ddf.comm.defaultComm.BDdfReceiver v) -->
+<method name='setReceiver' public='true'>
+<parameter name='v' module='devDriver' class='com.tridium.ddf.comm.defaultComm.BDdfReceiver'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;receiver&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#receiver</tag>
+</method>
+
+<!-- public devDriver:com.tridium.ddf.poll.BDdfPollScheduler getPollScheduler() -->
+<method name='getPollScheduler' public='true'>
+<return module='devDriver' class='com.tridium.ddf.poll.BDdfPollScheduler'/>
+<description>Get the &lt;code&gt;pollScheduler&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#pollScheduler</tag>
+</method>
+
+<!-- public void setPollScheduler(devDriver:com.tridium.ddf.poll.BDdfPollScheduler v) -->
+<method name='setPollScheduler' public='true'>
+<parameter name='v' module='devDriver' class='com.tridium.ddf.poll.BDdfPollScheduler'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;pollScheduler&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#pollScheduler</tag>
+</method>
+
+<!-- public devIpDriver:com.tridium.ddfIp.tcp.comm.BDdfTcpTransmitter getTransmitter() -->
+<method name='getTransmitter' public='true'>
+<return module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpTransmitter'/>
+<description>Get the &lt;code&gt;transmitter&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#transmitter</tag>
+</method>
+
+<!-- public void setTransmitter(devIpDriver:com.tridium.ddfIp.tcp.comm.BDdfTcpTransmitter v) -->
+<method name='setTransmitter' public='true'>
+<parameter name='v' module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpTransmitter'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;transmitter&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#transmitter</tag>
+</method>
+
+<!-- public devIpDriver:com.tridium.ddfIp.tcp.comm.BDdfTcpHelper getTcpIpComm() -->
+<method name='getTcpIpComm' public='true'>
+<return module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpHelper'/>
+<description>Get the &lt;code&gt;tcpIpComm&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#tcpIpComm</tag>
+</method>
+
+<!-- public void setTcpIpComm(devIpDriver:com.tridium.ddfIp.tcp.comm.BDdfTcpHelper v) -->
+<method name='setTcpIpComm' public='true'>
+<parameter name='v' module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpHelper'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;tcpIpComm&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#tcpIpComm</tag>
+</method>
+
+<!-- public devDriver:com.tridium.ddf.comm.defaultComm.BDdfUnsolicitedMgr getUnsolicitedMgr() -->
+<method name='getUnsolicitedMgr' public='true'>
+<return module='devDriver' class='com.tridium.ddf.comm.defaultComm.BDdfUnsolicitedMgr'/>
+<description>Get the &lt;code&gt;unsolicitedMgr&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#unsolicitedMgr</tag>
+</method>
+
+<!-- public void setUnsolicitedMgr(devDriver:com.tridium.ddf.comm.defaultComm.BDdfUnsolicitedMgr v) -->
+<method name='setUnsolicitedMgr' public='true'>
+<parameter name='v' module='devDriver' class='com.tridium.ddf.comm.defaultComm.BDdfUnsolicitedMgr'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;unsolicitedMgr&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator#unsolicitedMgr</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public devIpDriver:com.tridium.ddfIp.tcp.comm.TcpSocketManager getTcpSocketManager() -->
+<method name='getTcpSocketManager' public='true'>
+<return module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.TcpSocketManager'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

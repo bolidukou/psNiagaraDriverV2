@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver'
+  name='BPsNiagaraDriverReceiver'
+  packageName='com.profileSystems.psNiagaraDriver.comm'
+>
+<extends module='devIpDriver' class='com.tridium.ddfIp.tcp.comm.BDdfTcpReceiver'/>
+
+<!-- property responseTimeout -->
+<property name='responseTimeout' flags=''>
+<type module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Slot for the &lt;code&gt;responseTimeout&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver#getResponseTimeout</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver#setResponseTimeout</tag>
+</property>
+
+<!-- public baja:javax.baja.sys.BRelTime getResponseTimeout() -->
+<method name='getResponseTimeout' public='true'>
+<return module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Get the &lt;code&gt;responseTimeout&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver#responseTimeout</tag>
+</method>
+
+<!-- public void setResponseTimeout(baja:javax.baja.sys.BRelTime v) -->
+<method name='setResponseTimeout' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BRelTime'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;responseTimeout&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver#responseTimeout</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public int isStartOfFrame(devDriver:com.tridium.ddf.comm.IDdfDataFrame frameSoFar) -->
+<method name='isStartOfFrame' public='true'>
+<parameter name='frameSoFar' module='devDriver' class='com.tridium.ddf.comm.IDdfDataFrame'/>
+<return class='int'/>
+</method>
+
+<!-- public boolean isCompleteFrame(devDriver:com.tridium.ddf.comm.IDdfDataFrame frameSoFar) -->
+<method name='isCompleteFrame' public='true'>
+<parameter name='frameSoFar' module='devDriver' class='com.tridium.ddf.comm.IDdfDataFrame'/>
+<return class='boolean'/>
+</method>
+
+<!-- public boolean checkFrame(devDriver:com.tridium.ddf.comm.IDdfDataFrame frameSoFar) -->
+<method name='checkFrame' public='true'>
+<parameter name='frameSoFar' module='devDriver' class='com.tridium.ddf.comm.IDdfDataFrame'/>
+<return class='boolean'/>
+</method>
+
+<!-- protected baja:javax.baja.sys.BSimple computeTag(devDriver:com.tridium.ddf.comm.IDdfDataFrame paramIDdfDataFrame) -->
+<method name='computeTag' protected='true'>
+<parameter name='paramIDdfDataFrame' module='devDriver' class='com.tridium.ddf.comm.IDdfDataFrame'/>
+<return module='baja' class='javax.baja.sys.BSimple'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

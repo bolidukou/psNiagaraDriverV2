@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceId'
+  name='BPsNiagaraDriverDeviceId'
+  packageName='com.profileSystems.psNiagaraDriver.device'
+>
+<extends module='devDriver' class='com.tridium.ddf.identify.BDdfDeviceId'/>
+
+<!-- property SerialNo -->
+<property name='SerialNo' flags=''>
+<type class='int'/>
+<description>Slot for the &lt;code&gt;SerialNo&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceId#getSerialNo</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceId#setSerialNo</tag>
+</property>
+
+<!-- public int getSerialNo() -->
+<method name='getSerialNo' public='true'>
+<return class='int'/>
+<description>Get the &lt;code&gt;SerialNo&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceId#SerialNo</tag>
+</method>
+
+<!-- public void setSerialNo(int v) -->
+<method name='setSerialNo' public='true'>
+<parameter name='v' class='int'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;SerialNo&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceId#SerialNo</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getPingRequestType() -->
+<method name='getPingRequestType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice GetBPsNiagaraDriverDevice() -->
+<method name='GetBPsNiagaraDriverDevice' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

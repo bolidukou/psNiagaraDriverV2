@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'
+  name='BPsNiagaraDriverCustomRequestType'
+  packageName='com.profileSystems.psNiagaraDriver.comm.identify'
+  final='true'
+>
+<description>A list of circuit status
+ </description>
+<tag name='author'>Watson Zhou</tag>
+<tag name='creation'/>
+<tag name='version'/>
+<tag name='since'/>
+<extends module='baja' class='javax.baja.sys.BFrozenEnum'/>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType make(int ordinal) -->
+<method name='make' public='true' static='true'>
+<parameter name='ordinal' class='int'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>Factory method with ordinal.</description>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType make(java.lang.String tag) -->
+<method name='make' public='true' static='true'>
+<parameter name='tag' class='java.lang.String'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>Factory method with tag.</description>
+</method>
+
+<!-- public final static int UNDEFINED -->
+<field name='UNDEFINED' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Undefined.</description>
+</field>
+
+<!-- public final static int QUERY_UNIT_STATUS -->
+<field name='QUERY_UNIT_STATUS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for QueryUnitStatus.</description>
+</field>
+
+<!-- public final static int QUERY_UNIT_LOCATION -->
+<field name='QUERY_UNIT_LOCATION' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for QueryUnitLocation.</description>
+</field>
+
+<!-- public final static int QUERY_CIRCUIT_SCHEDULE -->
+<field name='QUERY_CIRCUIT_SCHEDULE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for QueryCircuitSchedule.</description>
+</field>
+
+<!-- public final static int SET_UNIT_TIME -->
+<field name='SET_UNIT_TIME' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SetUnitTime.</description>
+</field>
+
+<!-- public final static int SET_CIRCUIT_SCHEDULE -->
+<field name='SET_CIRCUIT_SCHEDULE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SetCircuitSchedule.</description>
+</field>
+
+<!-- public final static int SET_CIRCUIT_INSTANT_STATUS -->
+<field name='SET_CIRCUIT_INSTANT_STATUS' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SetCircuitInstantStatus.</description>
+</field>
+
+<!-- public final static int SET_UNIT_LOCATION -->
+<field name='SET_UNIT_LOCATION' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SetUnitLocation.</description>
+</field>
+
+<!-- public final static int QUERY_UNIT_NAME -->
+<field name='QUERY_UNIT_NAME' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for QueryUnitName.</description>
+</field>
+
+<!-- public final static int SET_UNIT_NAME -->
+<field name='SET_UNIT_NAME' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SetUnitName.</description>
+</field>
+
+<!-- public final static int QUERY_CIRCUIT_NAME -->
+<field name='QUERY_CIRCUIT_NAME' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for QueryCircuitName.</description>
+</field>
+
+<!-- public final static int SET_CIRCUIT_NAME -->
+<field name='SET_CIRCUIT_NAME' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SetCircuitName.</description>
+</field>
+
+<!-- public final static int SYNC_DEVICE -->
+<field name='SYNC_DEVICE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for SyncDevice.</description>
+</field>
+
+<!-- public final static int CHECK_STATUS_UPDATE -->
+<field name='CHECK_STATUS_UPDATE' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for CheckStatusUpdate.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType Undefined -->
+<field name='Undefined' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for Undefined.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType QueryUnitStatus -->
+<field name='QueryUnitStatus' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for QueryUnitStatus.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType QueryUnitLocation -->
+<field name='QueryUnitLocation' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for QueryUnitLocation.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType QueryCircuitSchedule -->
+<field name='QueryCircuitSchedule' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for QueryCircuitSchedule.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SetUnitTime -->
+<field name='SetUnitTime' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SetUnitTime.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SetCircuitSchedule -->
+<field name='SetCircuitSchedule' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SetCircuitSchedule.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SetCircuitInstantStatus -->
+<field name='SetCircuitInstantStatus' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SetCircuitInstantStatus.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SetUnitLocation -->
+<field name='SetUnitLocation' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SetUnitLocation.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType QueryUnitName -->
+<field name='QueryUnitName' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for QueryUnitName.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SetUnitName -->
+<field name='SetUnitName' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SetUnitName.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType QueryCircuitName -->
+<field name='QueryCircuitName' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for QueryCircuitName.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SetCircuitName -->
+<field name='SetCircuitName' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SetCircuitName.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType SyncDevice -->
+<field name='SyncDevice' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for SyncDevice.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType CheckStatusUpdate -->
+<field name='CheckStatusUpdate' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<description>BPsNiagaraDriverCustomRequestType constant for CheckStatusUpdate.</description>
+</field>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType DEFAULT -->
+<field name='DEFAULT' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+</field>
+
+</class>
+</bajadoc>

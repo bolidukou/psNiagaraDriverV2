@@ -1,0 +1,3 @@
+cd /d w:\PS.NET.4.0\NiagaraAX\
+build psNiagaraDriver clean
+exit

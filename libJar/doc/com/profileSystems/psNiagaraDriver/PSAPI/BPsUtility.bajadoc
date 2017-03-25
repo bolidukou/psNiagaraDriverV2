@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.PSAPI.BPsUtility'
+  name='BPsUtility'
+  packageName='com.profileSystems.psNiagaraDriver.PSAPI'
+  final='true'
+>
+<tag name='author'>wzhou  API Communication protocol utility class</tag>
+<extends class='java.lang.Object'/>
+
+<!-- public final static byte[] Encode(java.lang.String stringValue) throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='Encode' public='true' static='true' final='true'>
+<parameter name='stringValue' class='java.lang.String'/>
+<return class='byte' dimension='1'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+<description>Encode data string to byte array
+ </description>
+</method>
+
+<!-- public final static byte[] Encode(int unitAddress, java.lang.String payload) throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='Encode' public='true' static='true' final='true'>
+<parameter name='unitAddress' class='int'/>
+<parameter name='payload' class='java.lang.String'/>
+<return class='byte' dimension='1'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+<description>Encode data string to byte array
+ </description>
+</method>
+
+<!-- public final static java.lang.String Decode(byte[] byteArray) throws psNiagaraDriver:com.profileSystems.psNiagaraDriver.PSAPI.BPsException -->
+<method name='Decode' public='true' static='true' final='true'>
+<parameter name='byteArray' class='byte' dimension='1'/>
+<return class='java.lang.String'/>
+<throws module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.PSAPI.BPsException'/>
+<description>Decode byte array data to string
+ </description>
+</method>
+
+<!-- public final static boolean Validate(byte[] byteArray) -->
+<method name='Validate' public='true' static='true' final='true'>
+<parameter name='byteArray' class='byte' dimension='1'/>
+<return class='boolean'/>
+<description>validate package
+ </description>
+</method>
+
+<!-- public final static boolean isStartOfFrame(byte[] byteArray) -->
+<method name='isStartOfFrame' public='true' static='true' final='true'>
+<parameter name='byteArray' class='byte' dimension='1'/>
+<return class='boolean'/>
+<description>validate package
+ </description>
+</method>
+
+<!-- public static java.lang.String join(baja:javax.baja.util.Array s, java.lang.String delimiter) -->
+<method name='join' public='true' static='true'>
+<parameter name='s' module='baja' class='javax.baja.util.Array'/>
+<parameter name='delimiter' class='java.lang.String'/>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public static java.lang.String[] splitString(java.lang.String stringValue, java.lang.String delimiter) -->
+<method name='splitString' public='true' static='true'>
+<parameter name='stringValue' class='java.lang.String'/>
+<parameter name='delimiter' class='java.lang.String'/>
+<return class='java.lang.String' dimension='1'/>
+</method>
+
+<!-- public final static int PACKET_START_MAGIC -->
+<field name='PACKET_START_MAGIC' public='true' static='true' final='true'>
+<type class='int'/>
+</field>
+
+<!-- public final static int PACKET_END_MAGIC -->
+<field name='PACKET_END_MAGIC' public='true' static='true' final='true'>
+<type class='int'/>
+</field>
+
+</class>
+</bajadoc>

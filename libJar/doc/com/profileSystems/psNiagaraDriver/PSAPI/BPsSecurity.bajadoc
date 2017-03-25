@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.PSAPI.BPsSecurity'
+  name='BPsSecurity'
+  packageName='com.profileSystems.psNiagaraDriver.PSAPI'
+  final='true'
+>
+<tag name='author'>wzhou  API Communication protocol security class</tag>
+<extends class='java.lang.Object'/>
+
+</class>
+</bajadoc>

@@ -1,0 +1,39 @@
+<!-- Module Build File -->
+
+<module
+  name = "psNiagaraDriver"
+  bajaVersion = "3.2"
+  preferredSymbol = "ps"
+  description = "Profile Systems Niagara Driver V2"
+  vendor = "Profile Systems"
+  vendorVersion="0.17.03.22"
+>
+
+  <!-- Dependencies -->
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.0" />
+  <dependency name="bajaui" vendor="Tridium" vendorVersion="3.0" />
+  <dependency name="control" vendor="Tridium" vendorVersion="3.0"/>
+  <dependency name="alarm" vendor="Tridium" vendorVersion="3.0"/>
+  <dependency name="driver" vendor="Tridium" vendorVersion="3.0"/>
+  <dependency name="devDriver" vendor="Tridium" vendorVersion="3.2"/>
+  <dependency name="platform" vendor="Tridium" vendorVersion="3.0"/>
+  <dependency name="devIpDriver" vendor="Tridium" vendorVersion="3.2"/>
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.2"/>
+  <dependency name="gx" vendor="Tridium" vendorVersion="3.0" />
+
+  <!-- Packages -->
+  <package name="com.profileSystems.psNiagaraDriver" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.circuit" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.circuit.ui" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.CircuitWidget" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.comm" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.comm.identify" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.comm.req" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.comm.rsp" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.device" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.device.Location" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.discover" doc="true"/>  
+  <package name="com.profileSystems.psNiagaraDriver.PSAPI" doc="true"/>
+  <package name="com.profileSystems.psNiagaraDriver.Widget" doc="true"/>  
+  
+</module>

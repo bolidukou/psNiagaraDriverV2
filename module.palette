@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="1.0">
+<p m="b=baja" t="b:UnrestrictedFolder">
+
+ <p n="PsNiagaraDriverNetwork" m="ps=psNiagaraDriver" t="ps:PsNiagaraDriverNetwork"/>
+  <p n="Ps_P1802_Device" t="ps:PsNiagaraDriverDevice">
+  	<p n="Ps_P1802_Relay" t="ps:PsNiagaraDriverRelay"></p>
+  	<p n="Ps_P1802_RelayOverride" t="ps:PsNiagaraDriverRelayOverride"></p>
+  	<p n="Ps_P1802_ScheduleSelect" t="ps:PsNiagaraDriverScheduleSelect"></p>
+  </p>
+</p>
+</bajaObjectGraph>

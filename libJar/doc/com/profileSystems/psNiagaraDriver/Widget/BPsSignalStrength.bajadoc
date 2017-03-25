@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength'
+  name='BPsSignalStrength'
+  packageName='com.profileSystems.psNiagaraDriver.Widget'
+>
+<extends module='control' class='javax.baja.control.BNumericPoint'/>
+
+<!-- property facets -->
+<property name='facets' flags='r'>
+<type module='baja' class='javax.baja.sys.BFacets'/>
+<description>Slot for the &lt;code&gt;facets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#getFacets</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#setFacets</tag>
+</property>
+
+<!-- property proxyExt -->
+<property name='proxyExt' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt'/>
+<description>Slot for the &lt;code&gt;proxyExt&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#getProxyExt</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#setProxyExt</tag>
+</property>
+
+<!-- public baja:javax.baja.sys.BFacets getFacets() -->
+<method name='getFacets' public='true'>
+<return module='baja' class='javax.baja.sys.BFacets'/>
+<description>Get the &lt;code&gt;facets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#facets</tag>
+</method>
+
+<!-- public void setFacets(baja:javax.baja.sys.BFacets v) -->
+<method name='setFacets' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BFacets'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;facets&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#facets</tag>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt getProxyExt() -->
+<method name='getProxyExt' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt'/>
+<description>Get the &lt;code&gt;proxyExt&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#proxyExt</tag>
+</method>
+
+<!-- public void setProxyExt(psNiagaraDriver:com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt v) -->
+<method name='setProxyExt' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;proxyExt&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength#proxyExt</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

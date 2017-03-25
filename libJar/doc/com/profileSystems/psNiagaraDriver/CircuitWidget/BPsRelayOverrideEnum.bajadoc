@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'
+  name='BPsRelayOverrideEnum'
+  packageName='com.profileSystems.psNiagaraDriver.CircuitWidget'
+  final='true'
+>
+<description>A list of circuit status
+ </description>
+<tag name='author'>Watson Zhou</tag>
+<tag name='creation'/>
+<tag name='version'/>
+<tag name='since'/>
+<extends module='baja' class='javax.baja.sys.BFrozenEnum'/>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum make(int ordinal) -->
+<method name='make' public='true' static='true'>
+<parameter name='ordinal' class='int'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'/>
+<description>Factory method with ordinal.</description>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum make(java.lang.String tag) -->
+<method name='make' public='true' static='true'>
+<parameter name='tag' class='java.lang.String'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'/>
+<description>Factory method with tag.</description>
+</method>
+
+<!-- public final static int AUTO -->
+<field name='AUTO' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Auto.</description>
+</field>
+
+<!-- public final static int OVRD_OFF -->
+<field name='OVRD_OFF' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Ovrd_Off.</description>
+</field>
+
+<!-- public final static int OVRD_ON -->
+<field name='OVRD_ON' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Ovrd_On.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum Auto -->
+<field name='Auto' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'/>
+<description>BPsRelayOverrideEnum constant for Auto.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum Ovrd_Off -->
+<field name='Ovrd_Off' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'/>
+<description>BPsRelayOverrideEnum constant for Ovrd_Off.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum Ovrd_On -->
+<field name='Ovrd_On' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'/>
+<description>BPsRelayOverrideEnum constant for Ovrd_On.</description>
+</field>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum DEFAULT -->
+<field name='DEFAULT' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum'/>
+</field>
+
+</class>
+</bajadoc>

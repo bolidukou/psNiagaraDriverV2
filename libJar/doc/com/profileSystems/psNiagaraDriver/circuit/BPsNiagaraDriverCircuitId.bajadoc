@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId'
+  name='BPsNiagaraDriverCircuitId'
+  packageName='com.profileSystems.psNiagaraDriver.circuit'
+>
+<extends module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+
+<!-- property CircuitNo -->
+<property name='CircuitNo' flags=''>
+<type class='int'/>
+<description>Slot for the &lt;code&gt;CircuitNo&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId#getCircuitNo</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId#setCircuitNo</tag>
+</property>
+
+<!-- public int getCircuitNo() -->
+<method name='getCircuitNo' public='true'>
+<return class='int'/>
+<description>Get the &lt;code&gt;CircuitNo&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId#CircuitNo</tag>
+</method>
+
+<!-- public void setCircuitNo(int v) -->
+<method name='setCircuitNo' public='true'>
+<parameter name='v' class='int'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;CircuitNo&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId#CircuitNo</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

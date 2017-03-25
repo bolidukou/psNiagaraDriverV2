@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.PSAPI.BPsConverter'
+  name='BPsConverter'
+  packageName='com.profileSystems.psNiagaraDriver.PSAPI'
+  final='true'
+>
+<tag name='author'>wzhou Converter utility class</tag>
+<extends class='java.lang.Object'/>
+
+<!-- public static byte[] ToByteArray(int value) -->
+<method name='ToByteArray' public='true' static='true'>
+<parameter name='value' class='int'/>
+<return class='byte' dimension='1'/>
+</method>
+
+<!-- public static int ToInt(byte[] byteArray) -->
+<method name='ToInt' public='true' static='true'>
+<parameter name='byteArray' class='byte' dimension='1'/>
+<return class='int'/>
+</method>
+
+<!-- public static int ToInt(byte[] byteArray, int startIndex) -->
+<method name='ToInt' public='true' static='true'>
+<parameter name='byteArray' class='byte' dimension='1'/>
+<parameter name='startIndex' class='int'/>
+<return class='int'/>
+</method>
+
+<!-- public static byte[] ToByteArray(java.lang.String stringValue) throws java.io.UnsupportedEncodingException -->
+<method name='ToByteArray' public='true' static='true'>
+<parameter name='stringValue' class='java.lang.String'/>
+<return class='byte' dimension='1'/>
+<throws class='java.io.UnsupportedEncodingException'/>
+</method>
+
+<!-- public static java.lang.String ToString(byte[] ba) throws java.io.UnsupportedEncodingException -->
+<method name='ToString' public='true' static='true'>
+<parameter name='ba' class='byte' dimension='1'/>
+<return class='java.lang.String'/>
+<throws class='java.io.UnsupportedEncodingException'/>
+</method>
+
+<!-- public static java.lang.String ToString(byte[] b, int startIndex, int count) -->
+<method name='ToString' public='true' static='true'>
+<parameter name='b' class='byte' dimension='1'/>
+<parameter name='startIndex' class='int'/>
+<parameter name='count' class='int'/>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public static byte[] Concat(byte[] array1, byte[] array2) -->
+<method name='Concat' public='true' static='true'>
+<parameter name='array1' class='byte' dimension='1'/>
+<parameter name='array2' class='byte' dimension='1'/>
+<return class='byte' dimension='1'/>
+</method>
+
+<!-- public static byte[] Concat(byte[] array1, byte[] array2, byte[] array3, byte[] array4) -->
+<method name='Concat' public='true' static='true'>
+<parameter name='array1' class='byte' dimension='1'/>
+<parameter name='array2' class='byte' dimension='1'/>
+<parameter name='array3' class='byte' dimension='1'/>
+<parameter name='array4' class='byte' dimension='1'/>
+<return class='byte' dimension='1'/>
+</method>
+
+<!-- public static byte[] GetFrameCopy(byte[] frameBytes, int frameSize) -->
+<method name='GetFrameCopy' public='true' static='true'>
+<parameter name='frameBytes' class='byte' dimension='1'/>
+<parameter name='frameSize' class='int'/>
+<return class='byte' dimension='1'/>
+</method>
+
+</class>
+</bajadoc>

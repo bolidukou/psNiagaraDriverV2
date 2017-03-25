@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'
+  name='BPsScheduleSelectEnum'
+  packageName='com.profileSystems.psNiagaraDriver.CircuitWidget'
+  final='true'
+>
+<description>A list of circuit status
+ </description>
+<tag name='author'>Watson Zhou</tag>
+<tag name='creation'/>
+<tag name='version'/>
+<tag name='since'/>
+<extends module='baja' class='javax.baja.sys.BFrozenEnum'/>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum make(int ordinal) -->
+<method name='make' public='true' static='true'>
+<parameter name='ordinal' class='int'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>Factory method with ordinal.</description>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum make(java.lang.String tag) -->
+<method name='make' public='true' static='true'>
+<parameter name='tag' class='java.lang.String'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>Factory method with tag.</description>
+</method>
+
+<!-- public final static int UNKNOWN -->
+<field name='UNKNOWN' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Unknown.</description>
+</field>
+
+<!-- public final static int DUSK_TO_DAWN -->
+<field name='DUSK_TO_DAWN' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for DuskToDawn.</description>
+</field>
+
+<!-- public final static int OFF_11PM_3AM -->
+<field name='OFF_11PM_3AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_11pm_3am.</description>
+</field>
+
+<!-- public final static int OFF_11PM_5AM -->
+<field name='OFF_11PM_5AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_11pm_5am.</description>
+</field>
+
+<!-- public final static int OFF_11PM_7AM -->
+<field name='OFF_11PM_7AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_11pm_7am.</description>
+</field>
+
+<!-- public final static int OFF_12AM_3AM -->
+<field name='OFF_12AM_3AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_12am_3am.</description>
+</field>
+
+<!-- public final static int OFF_12AM_4AM -->
+<field name='OFF_12AM_4AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_12am_4am.</description>
+</field>
+
+<!-- public final static int OFF_12AM_5AM -->
+<field name='OFF_12AM_5AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_12am_5am.</description>
+</field>
+
+<!-- public final static int OFF_12AM_6AM -->
+<field name='OFF_12AM_6AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_12am_6am.</description>
+</field>
+
+<!-- public final static int OFF_12AM_7AM -->
+<field name='OFF_12AM_7AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_12am_7am.</description>
+</field>
+
+<!-- public final static int OFF_1AM_3AM -->
+<field name='OFF_1AM_3AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_1am_3am.</description>
+</field>
+
+<!-- public final static int OFF_1AM_4AM -->
+<field name='OFF_1AM_4AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_1am_4am.</description>
+</field>
+
+<!-- public final static int OFF_1AM_5AM -->
+<field name='OFF_1AM_5AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_1am_5am.</description>
+</field>
+
+<!-- public final static int OFF_1AM_6AM -->
+<field name='OFF_1AM_6AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_1am_6am.</description>
+</field>
+
+<!-- public final static int OFF_1AM_7AM -->
+<field name='OFF_1AM_7AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_1am_7am.</description>
+</field>
+
+<!-- public final static int OFF_2AM_4AM -->
+<field name='OFF_2AM_4AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_2am_4am.</description>
+</field>
+
+<!-- public final static int OFF_2AM_5AM -->
+<field name='OFF_2AM_5AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_2am_5am.</description>
+</field>
+
+<!-- public final static int OFF_2AM_6AM -->
+<field name='OFF_2AM_6AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_2am_6am.</description>
+</field>
+
+<!-- public final static int OFF_2AM_7AM -->
+<field name='OFF_2AM_7AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_2am_7am.</description>
+</field>
+
+<!-- public final static int OFF_230AM_7AM -->
+<field name='OFF_230AM_7AM' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for Off_230am_7am.</description>
+</field>
+
+<!-- public final static int CUSTOM_SCH_1 -->
+<field name='CUSTOM_SCH_1' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for CustomSch1.</description>
+</field>
+
+<!-- public final static int CUSTOM_SCH_2 -->
+<field name='CUSTOM_SCH_2' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for CustomSch2.</description>
+</field>
+
+<!-- public final static int CUSTOM_SCH_3 -->
+<field name='CUSTOM_SCH_3' public='true' static='true' final='true'>
+<type class='int'/>
+<description>Ordinal value for CustomSch3.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Unknown -->
+<field name='Unknown' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Unknown.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum DuskToDawn -->
+<field name='DuskToDawn' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for DuskToDawn.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_11pm_3am -->
+<field name='Off_11pm_3am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_11pm_3am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_11pm_5am -->
+<field name='Off_11pm_5am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_11pm_5am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_11pm_7am -->
+<field name='Off_11pm_7am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_11pm_7am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_12am_3am -->
+<field name='Off_12am_3am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_12am_3am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_12am_4am -->
+<field name='Off_12am_4am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_12am_4am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_12am_5am -->
+<field name='Off_12am_5am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_12am_5am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_12am_6am -->
+<field name='Off_12am_6am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_12am_6am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_12am_7am -->
+<field name='Off_12am_7am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_12am_7am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_1am_3am -->
+<field name='Off_1am_3am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_1am_3am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_1am_4am -->
+<field name='Off_1am_4am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_1am_4am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_1am_5am -->
+<field name='Off_1am_5am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_1am_5am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_1am_6am -->
+<field name='Off_1am_6am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_1am_6am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_1am_7am -->
+<field name='Off_1am_7am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_1am_7am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_2am_4am -->
+<field name='Off_2am_4am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_2am_4am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_2am_5am -->
+<field name='Off_2am_5am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_2am_5am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_2am_6am -->
+<field name='Off_2am_6am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_2am_6am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_2am_7am -->
+<field name='Off_2am_7am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_2am_7am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum Off_230am_7am -->
+<field name='Off_230am_7am' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for Off_230am_7am.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum CustomSch1 -->
+<field name='CustomSch1' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for CustomSch1.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum CustomSch2 -->
+<field name='CustomSch2' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for CustomSch2.</description>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum CustomSch3 -->
+<field name='CustomSch3' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+<description>BPsScheduleSelectEnum constant for CustomSch3.</description>
+</field>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+<!-- public final static psNiagaraDriver:com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum DEFAULT -->
+<field name='DEFAULT' public='true' static='true' final='true'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum'/>
+</field>
+
+</class>
+</bajadoc>

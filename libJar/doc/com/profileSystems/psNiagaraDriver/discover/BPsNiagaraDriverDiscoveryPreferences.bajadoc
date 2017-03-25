@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences'
+  name='BPsNiagaraDriverDiscoveryPreferences'
+  packageName='com.profileSystems.psNiagaraDriver.discover'
+>
+<extends module='devDriver' class='com.tridium.ddf.discover.auto.BDdfAutoDiscoveryPreferences'/>
+
+<!-- property timeout -->
+<property name='timeout' flags=''>
+<type module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Slot for the &lt;code&gt;timeout&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences#getTimeout</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences#setTimeout</tag>
+</property>
+
+<!-- public baja:javax.baja.sys.BRelTime getTimeout() -->
+<method name='getTimeout' public='true'>
+<return module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Get the &lt;code&gt;timeout&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences#timeout</tag>
+</method>
+
+<!-- public void setTimeout(baja:javax.baja.sys.BRelTime v) -->
+<method name='setTimeout' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BRelTime'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;timeout&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences#timeout</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

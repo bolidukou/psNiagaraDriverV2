@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetModel'
+  name='BPsNiagaraDriverCircuitWidgetModel'
+  packageName='com.profileSystems.psNiagaraDriver.CircuitWidget'
+>
+<extends module='devDriver' class='com.tridium.ddf.ui.point.DdfPointModel'/>
+
+<!-- public BPsNiagaraDriverCircuitWidgetModel(devDriver:com.tridium.ddf.ui.point.BDdfPointManager manager) -->
+<constructor name='BPsNiagaraDriverCircuitWidgetModel' public='true'>
+<parameter name='manager' module='devDriver' class='com.tridium.ddf.ui.point.BDdfPointManager'/>
+</constructor>
+
+<!-- protected workbench:javax.baja.workbench.mgr.MgrColumn[] makeColumns() -->
+<method name='makeColumns' protected='true'>
+<return module='workbench' class='javax.baja.workbench.mgr.MgrColumn' dimension='1'/>
+<description>Create the columns that we want to display in our model table. In our
+ case, we want to use all the pre-defined columns for the PointModel, but
+ add one additional column.</description>
+</method>
+
+<!-- public workbench:javax.baja.workbench.mgr.MgrTypeInfo[] getNewTypes() -->
+<method name='getNewTypes' public='true'>
+<return module='workbench' class='javax.baja.workbench.mgr.MgrTypeInfo' dimension='1'/>
+<description>This method determines what types of components we can create in our
+ point model. We can expand this if we want to allow additional point
+ types.</description>
+</method>
+
+<!-- public baja:javax.baja.sys.Type[] getIncludeTypes() -->
+<method name='getIncludeTypes' public='true'>
+<return module='baja' class='javax.baja.sys.Type' dimension='1'/>
+<description>This method returns a list of what Types can be included into our model.</description>
+</method>
+
+</class>
+</bajadoc>

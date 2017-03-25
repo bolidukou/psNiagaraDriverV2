@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum'
+  name='BPsNiagaraDriverCircuitStatusEnum'
+  packageName='com.profileSystems.psNiagaraDriver.circuit'
+  final='true'
+>
+<description>A list of circuit status
+ </description>
+<tag name='author'>Watson Zhou</tag>
+<tag name='creation'/>
+<tag name='version'/>
+<tag name='since'/>
+<extends module='baja' class='javax.baja.status.BStatusValue'/>
+<implements module='baja' class='javax.baja.sys.BIEnum'/>
+
+<!-- property value -->
+<property name='value' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus'/>
+<description>Slot for the &lt;code&gt;value&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum#getValue</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum#setValue</tag>
+</property>
+
+<!-- public BPsNiagaraDriverCircuitStatusEnum(baja:javax.baja.sys.BEnum paramBEnum, baja:javax.baja.status.BStatus paramBStatus) -->
+<constructor name='BPsNiagaraDriverCircuitStatusEnum' public='true'>
+<parameter name='paramBEnum' module='baja' class='javax.baja.sys.BEnum'/>
+<parameter name='paramBStatus' module='baja' class='javax.baja.status.BStatus'/>
+</constructor>
+
+<!-- public BPsNiagaraDriverCircuitStatusEnum(baja:javax.baja.sys.BEnum paramBEnum) -->
+<constructor name='BPsNiagaraDriverCircuitStatusEnum' public='true'>
+<parameter name='paramBEnum' module='baja' class='javax.baja.sys.BEnum'/>
+</constructor>
+
+<!-- public BPsNiagaraDriverCircuitStatusEnum() -->
+<constructor name='BPsNiagaraDriverCircuitStatusEnum' public='true'>
+</constructor>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus getValue() -->
+<method name='getValue' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus'/>
+<description>Get the &lt;code&gt;value&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum#value</tag>
+</method>
+
+<!-- public void setValue(psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus v) -->
+<method name='setValue' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;value&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum#value</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.BEnum getEnum() -->
+<method name='getEnum' public='true'>
+<return module='baja' class='javax.baja.sys.BEnum'/>
+</method>
+
+<!-- public final baja:javax.baja.sys.BFacets getEnumFacets() -->
+<method name='getEnumFacets' public='true' final='true'>
+<return module='baja' class='javax.baja.sys.BFacets'/>
+</method>
+
+<!-- public void setValue(baja:javax.baja.sys.BEnum paramBEnum) -->
+<method name='setValue' public='true'>
+<parameter name='paramBEnum' module='baja' class='javax.baja.sys.BEnum'/>
+<return class='void'/>
+</method>
+
+<!-- public final baja:javax.baja.sys.BValue getValueValue() -->
+<method name='getValueValue' public='true' final='true'>
+<return module='baja' class='javax.baja.sys.BValue'/>
+</method>
+
+<!-- public final baja:javax.baja.sys.Property getValueProperty() -->
+<method name='getValueProperty' public='true' final='true'>
+<return module='baja' class='javax.baja.sys.Property'/>
+</method>
+
+<!-- public java.lang.String valueToString(baja:javax.baja.sys.Context paramContext) -->
+<method name='valueToString' public='true'>
+<parameter name='paramContext' module='baja' class='javax.baja.sys.Context'/>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public baja:javax.baja.sys.BIcon getIcon() -->
+<method name='getIcon' public='true'>
+<return module='baja' class='javax.baja.sys.BIcon'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

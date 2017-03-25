@@ -1,0 +1,116 @@
+<!-- Types -->
+<types>
+  <type name="PsNiagaraDriverGatewayNetwork" class="com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork"/>
+  <type name="PsNiagaraDriverGatewayNetworkCredential" class="com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetworkCredential"/>
+  
+  <type name="PsNiagaraDriverCircuitDeviceExt" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitDeviceExt"/>
+  <type name="PsNiagaraDriverCircuitFolder" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitFolder"/>
+  <type name="PsNiagaraDriverCircuitId" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitId"/>  
+  <type name="PsNiagaraDriverCircuitProxyExt" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitProxyExt"/>
+  <type name="PsNiagaraDriverCircuitStatus" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatus"/>
+  
+  <type name="PsNiagaraDriverCircuitManager" class="com.profileSystems.psNiagaraDriver.circuit.ui.BPsNiagaraDriverCircuitManager">
+    <agent>
+      <on type="psNiagaraDriver:PsNiagaraDriverCircuitDeviceExt" />
+      <on type="psNiagaraDriver:PsNiagaraDriverCircuitFolder" />
+    </agent>
+  </type>  
+  
+  <type name="PsNiagaraDriverCommunicator" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator"/>
+  <type name="PsNiagaraDriverReceiver" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver"/>
+  
+  <type name="PsNiagaraDriverCustomRequestType" class="com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType"/>
+  <type name="PsNiagaraDriverReadParams" class="com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverReadParams"/>
+  <type name="PsNiagaraDriverWriteParams" class="com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverWriteParams"/>
+  
+  <type name="PsNiagaraDriverCustomRequest" class="com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverCustomRequest"/>
+  <type name="PsNiagaraDriverPingRequest" class="com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverPingRequest"/>
+  <type name="PsNiagaraDriverReadRequest" class="com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverReadRequest"/>
+  <type name="PsNiagaraDriverWriteRequest" class="com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverWriteRequest"/>
+  
+  <type name="PsNiagaraDriverCustomResponse" class="com.profileSystems.psNiagaraDriver.comm.rsp.BPsNiagaraDriverCustomResponse"/>
+  <type name="PsNiagaraDriverPingResponse" class="com.profileSystems.psNiagaraDriver.comm.rsp.BPsNiagaraDriverPingResponse"/>
+  <type name="PsNiagaraDriverReadResponse" class="com.profileSystems.psNiagaraDriver.comm.rsp.BPsNiagaraDriverReadResponse"/>
+  <type name="PsNiagaraDriverWriteResponse" class="com.profileSystems.psNiagaraDriver.comm.rsp.BPsNiagaraDriverWriteResponse"/>
+  
+  <type name="PsNiagaraDriverDevice" class="com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice"/>
+  <type name="PsNiagaraDriverDeviceFolder" class="com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceFolder"/>  
+  <type name="PsNiagaraDriverDeviceId" class="com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceId"/>
+  
+  <type name="PsNiagaraDriverCircuit" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit"/>
+  <type name="PsNiagaraDriverCircuitStatusEnum" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitStatusEnum"/>
+  <type name="PsNiagaraDriverCircuitSchedule" class="com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule"/>
+  <type name="PsNiagaraDriverDeviceLocation" class="com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation"/>
+  <type name="PsNiagaraDriverDeviceLocationState" class="com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState"/>
+  <type name="PsNiagaraDriverDeviceLocationParams" class="com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams"/>
+  <type name="PsNiagaraDriverPollScheduler" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler"/>
+  <type name="PsNiagaraDriverTransmitter" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverTransmitter"/>
+  <type name="PsNiagaraDriverTcpHelper" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverTcpHelper"/>  
+  
+  <type name="PsNiagaraDriverDiscoveryPreferences" class="com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences"/>
+  
+  <type name="PsNiagaraDriverWidgetFolder" class="com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetFolder"/>
+  <type name="PsNiagaraDriverWidgetId" class="com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetId"/>
+  <type name="PsNiagaraDriverWidgetProxyExt" class="com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetProxyExt"/>
+  <type name="PsNiagaraDriverWidgetDeviceExt" class="com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetDeviceExt"/>
+  
+  <type name="PsNiagaraDriverWidgetManager" class="com.profileSystems.psNiagaraDriver.Widget.BPsNiagaraDriverWidgetManager">
+    <agent>
+      <on type="psNiagaraDriver:PsNiagaraDriverWidgetDeviceExt" />
+      <on type="psNiagaraDriver:PsNiagaraDriverWidgetFolder" />
+    </agent>
+  </type>
+  
+  
+  <type name="PsNiagaraDriverCircuitWidgetDeviceExt" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetDeviceExt"/>
+  <type name="PsNiagaraDriverCircuitWidgetFolder" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetFolder"/>
+  <type name="PsNiagaraDriverCircuitWidgetId" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetId"/>
+  <type name="PsNiagaraDriverCircuitWidgetManager" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetManager">
+   <agent>
+      <on type="psNiagaraDriver:PsNiagaraDriverCircuitWidgetDeviceExt" />
+      <on type="psNiagaraDriver:PsNiagaraDriverCircuitWidgetFolder" />
+    </agent>
+  </type>
+  <type name="PsNiagaraDriverCircuitWidgetProxyExt" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsNiagaraDriverCircuitWidgetProxyExt"/>
+  
+  <type name="PsRelay" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelay"/>
+  <type name="PsRelayOverride" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverride"/>
+  <type name="PsRelayOverrideEnum" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayOverrideEnum"/>
+  <type name="PsScheduleSelect" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelect"/>
+  <type name="PsScheduleSelectEnum" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsScheduleSelectEnum"/>
+  <type name="PsCircuitStatus" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsCircuitStatus"/>
+  <type name="PsACPower" class="com.profileSystems.psNiagaraDriver.Widget.BPsACPower"/>
+  <type name="PsLocalTime" class="com.profileSystems.psNiagaraDriver.Widget.BPsLocalTime"/>
+  <type name="PsPanelTemp" class="com.profileSystems.psNiagaraDriver.Widget.BPsPanelTemp"/>
+  <type name="PsSignalStrength" class="com.profileSystems.psNiagaraDriver.Widget.BPsSignalStrength"/>
+  <type name="PsSunrise" class="com.profileSystems.psNiagaraDriver.Widget.BPsSunrise"/>
+  <type name="PsSunset" class="com.profileSystems.psNiagaraDriver.Widget.BPsSunset"/>
+  <type name="PsRelayActiveTime" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsRelayActiveTime"/>
+  <type name="PsAlarmLL" class="com.profileSystems.psNiagaraDriver.Widget.BPsAlarmLL"/>
+  <type name="PsAlarmPercent" class="com.profileSystems.psNiagaraDriver.Widget.BPsAlarmPercent"/>
+  <type name="PsBaseCtAAmps" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtAAmps"/>
+  <type name="PsBaseCtABaseline" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtABaseline"/>
+  <type name="PsBaseCtAWatts" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtAWatts"/>
+  <type name="PsBaseCtBAmps" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtBAmps"/>
+  <type name="PsBaseCtBBaseline" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtBBaseline"/>
+  <type name="PsBaseCtBWatts" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtBWatts"/>
+  <type name="PsBaseCtCAmps" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtCAmps"/>
+  <type name="PsBaseCtCBaseline" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtCBaseline"/>
+  <type name="PsBaseCtCWatts" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseCtCWatts"/>
+  <type name="PsBaseTotalWatts" class="com.profileSystems.psNiagaraDriver.Widget.BPsBaseTotalWatts"/>
+  <type name="PsFcCommand" class="com.profileSystems.psNiagaraDriver.Widget.BPsFcCommand"/>
+  <type name="PsFcLevel" class="com.profileSystems.psNiagaraDriver.Widget.BPsFcLevel"/>
+  <type name="PsFcOutput" class="com.profileSystems.psNiagaraDriver.Widget.BPsFcOutput"/>
+  <type name="PsFcSetpoint" class="com.profileSystems.psNiagaraDriver.Widget.BPsFcSetpoint"/>
+  <type name="PsPanelSTPT" class="com.profileSystems.psNiagaraDriver.Widget.BPsPanelSTPT"/>
+  <type name="PsPowerFactor" class="com.profileSystems.psNiagaraDriver.Widget.BPsPowerFactor"/>
+  <type name="PsPowerLoss" class="com.profileSystems.psNiagaraDriver.Widget.BPsPowerLoss"/>
+  <type name="PsSunriseOffset" class="com.profileSystems.psNiagaraDriver.Widget.BPsSunriseOffset"/>
+  <type name="PsSunriseOffsetToday" class="com.profileSystems.psNiagaraDriver.Widget.BPsSunriseOffsetToday"/>
+  <type name="PsSunsetOffset" class="com.profileSystems.psNiagaraDriver.Widget.BPsSunsetOffset"/>
+  <type name="PsSunsetOffsetToday" class="com.profileSystems.psNiagaraDriver.Widget.BPsSunsetOffsetToday"/>
+  <type name="PsSystemFault" class="com.profileSystems.psNiagaraDriver.Widget.BPsSystemFault"/>
+  <type name="PsVolts" class="com.profileSystems.psNiagaraDriver.Widget.BPsVolts"/>
+  <type name="PsCircuitName" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsCircuitName"/>
+  <type name="PsNiagaraDriverPollGroup" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollGroup"/>  
+</types>

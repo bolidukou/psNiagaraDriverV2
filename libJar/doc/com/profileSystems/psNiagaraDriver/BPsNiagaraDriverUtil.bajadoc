@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverUtil'
+  name='BPsNiagaraDriverUtil'
+  packageName='com.profileSystems.psNiagaraDriver'
+  final='true'
+>
+<extends class='java.lang.Object'/>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork findDdfNetwork(baja:javax.baja.sys.BComplex paramBComplex) -->
+<method name='findDdfNetwork' public='true' static='true'>
+<parameter name='paramBComplex' module='baja' class='javax.baja.sys.BComplex'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice findDdfDevice(baja:javax.baja.sys.BComplex paramBComplex) -->
+<method name='findDdfDevice' public='true' static='true'>
+<parameter name='paramBComplex' module='baja' class='javax.baja.sys.BComplex'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice'/>
+</method>
+
+<!-- public static psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitDeviceExt findDdfPointDeviceExt(baja:javax.baja.sys.BComplex paramBComplex) -->
+<method name='findDdfPointDeviceExt' public='true' static='true'>
+<parameter name='paramBComplex' module='baja' class='javax.baja.sys.BComplex'/>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitDeviceExt'/>
+</method>
+
+<!-- public static void trace(baja:javax.baja.sys.BComplex paramBComplex, java.lang.String traceMessage) -->
+<method name='trace' public='true' static='true'>
+<parameter name='paramBComplex' module='baja' class='javax.baja.sys.BComplex'/>
+<parameter name='traceMessage' class='java.lang.String'/>
+<return class='void'/>
+</method>
+
+<!-- public static java.lang.String GetModuleName() -->
+<method name='GetModuleName' public='true' static='true'>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public static java.lang.String GetModuleVersion() -->
+<method name='GetModuleVersion' public='true' static='true'>
+<return class='java.lang.String'/>
+</method>
+
+<!-- public static java.lang.String GetModuleNameAndVersion() -->
+<method name='GetModuleNameAndVersion' public='true' static='true'>
+<return class='java.lang.String'/>
+</method>
+
+</class>
+</bajadoc>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation'
+  name='BPsNiagaraDriverDeviceLocation'
+  packageName='com.profileSystems.psNiagaraDriver.device.Location'
+>
+<extends module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+
+<!-- property CountyState -->
+<property name='CountyState' flags='r'>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'/>
+<description>Slot for the &lt;code&gt;CountyState&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#getCountyState</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#setCountyState</tag>
+</property>
+
+<!-- property Latitude -->
+<property name='Latitude' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;Latitude&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#getLatitude</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#setLatitude</tag>
+</property>
+
+<!-- property Longitude -->
+<property name='Longitude' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;Longitude&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#getLongitude</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#setLongitude</tag>
+</property>
+
+<!-- property TimeZone -->
+<property name='TimeZone' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;TimeZone&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#getTimeZone</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#setTimeZone</tag>
+</property>
+
+<!-- property FollowsDST -->
+<property name='FollowsDST' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;FollowsDST&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#getFollowsDST</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#setFollowsDST</tag>
+</property>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams getCountyState() -->
+<method name='getCountyState' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'/>
+<description>Get the &lt;code&gt;CountyState&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#CountyState</tag>
+</method>
+
+<!-- public void setCountyState(psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams v) -->
+<method name='setCountyState' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;CountyState&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#CountyState</tag>
+</method>
+
+<!-- public java.lang.String getLatitude() -->
+<method name='getLatitude' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;Latitude&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#Latitude</tag>
+</method>
+
+<!-- public void setLatitude(java.lang.String v) -->
+<method name='setLatitude' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;Latitude&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#Latitude</tag>
+</method>
+
+<!-- public java.lang.String getLongitude() -->
+<method name='getLongitude' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;Longitude&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#Longitude</tag>
+</method>
+
+<!-- public void setLongitude(java.lang.String v) -->
+<method name='setLongitude' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;Longitude&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#Longitude</tag>
+</method>
+
+<!-- public java.lang.String getTimeZone() -->
+<method name='getTimeZone' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;TimeZone&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#TimeZone</tag>
+</method>
+
+<!-- public void setTimeZone(java.lang.String v) -->
+<method name='setTimeZone' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;TimeZone&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#TimeZone</tag>
+</method>
+
+<!-- public java.lang.String getFollowsDST() -->
+<method name='getFollowsDST' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;FollowsDST&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#FollowsDST</tag>
+</method>
+
+<!-- public void setFollowsDST(java.lang.String v) -->
+<method name='setFollowsDST' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;FollowsDST&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocation#FollowsDST</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

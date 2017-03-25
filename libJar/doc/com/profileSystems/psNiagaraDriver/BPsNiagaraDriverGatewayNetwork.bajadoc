@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork'
+  name='BPsNiagaraDriverGatewayNetwork'
+  packageName='com.profileSystems.psNiagaraDriver'
+>
+<extends module='devIpDriver' class='com.tridium.ddfIp.tcp.BDdfTcpGatewayNetwork'/>
+
+<!-- property communicator -->
+<property name='communicator' flags=''>
+<type module='baja' class='javax.baja.sys.BValue'/>
+<description>Slot for the &lt;code&gt;communicator&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#getCommunicator</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#setCommunicator</tag>
+</property>
+
+<!-- property Credentials -->
+<property name='Credentials' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetworkCredential'/>
+<description>Slot for the &lt;code&gt;Credentials&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#getCredentials</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#setCredentials</tag>
+</property>
+
+<!-- public BPsNiagaraDriverGatewayNetwork() -->
+<constructor name='BPsNiagaraDriverGatewayNetwork' public='true'>
+</constructor>
+
+<!-- public baja:javax.baja.sys.BValue getCommunicator() -->
+<method name='getCommunicator' public='true'>
+<return module='baja' class='javax.baja.sys.BValue'/>
+<description>Get the &lt;code&gt;communicator&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#communicator</tag>
+</method>
+
+<!-- public void setCommunicator(baja:javax.baja.sys.BValue v) -->
+<method name='setCommunicator' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BValue'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;communicator&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#communicator</tag>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetworkCredential getCredentials() -->
+<method name='getCredentials' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetworkCredential'/>
+<description>Get the &lt;code&gt;Credentials&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#Credentials</tag>
+</method>
+
+<!-- public void setCredentials(psNiagaraDriver:com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetworkCredential v) -->
+<method name='setCredentials' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetworkCredential'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;Credentials&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#Credentials</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getDeviceFolderType() -->
+<method name='getDeviceFolderType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getDeviceType() -->
+<method name='getDeviceType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

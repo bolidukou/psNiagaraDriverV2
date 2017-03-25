@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams'
+  name='BPsNiagaraDriverDeviceLocationParams'
+  packageName='com.profileSystems.psNiagaraDriver.device.Location'
+>
+<extends module='devDriver' class='com.tridium.ddf.identify.BDdfIdParams'/>
+
+<!-- property County -->
+<property name='County' flags=''>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;County&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#getCounty</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#setCounty</tag>
+</property>
+
+<!-- property State -->
+<property name='State' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>Slot for the &lt;code&gt;State&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#getState</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#setState</tag>
+</property>
+
+<!-- public java.lang.String getCounty() -->
+<method name='getCounty' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;County&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#County</tag>
+</method>
+
+<!-- public void setCounty(java.lang.String v) -->
+<method name='setCounty' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;County&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#County</tag>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState getState() -->
+<method name='getState' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<description>Get the &lt;code&gt;State&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#State</tag>
+</method>
+
+<!-- public void setState(psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState v) -->
+<method name='setState' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationState'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;State&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.Location.BPsNiagaraDriverDeviceLocationParams#State</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

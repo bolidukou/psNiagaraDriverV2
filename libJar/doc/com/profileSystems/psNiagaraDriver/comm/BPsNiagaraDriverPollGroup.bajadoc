@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollGroup'
+  name='BPsNiagaraDriverPollGroup'
+  packageName='com.profileSystems.psNiagaraDriver.comm'
+>
+<extends module='devDriver' class='com.tridium.ddf.poll.BDdfPollGroup'/>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public static devDriver:com.tridium.ddf.poll.BDdfPollGroup getPollGroupByPollable(devDriver:com.tridium.ddf.poll.BIDdfPollable pollable) -->
+<method name='getPollGroupByPollable' public='true' static='true'>
+<parameter name='pollable' module='devDriver' class='com.tridium.ddf.poll.BIDdfPollable'/>
+<return module='devDriver' class='com.tridium.ddf.poll.BDdfPollGroup'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

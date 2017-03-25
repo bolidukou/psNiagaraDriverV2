@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit'
+  name='BPsNiagaraDriverCircuit'
+  packageName='com.profileSystems.psNiagaraDriver.circuit'
+>
+<extends module='control' class='javax.baja.control.BStringPoint'/>
+
+<!-- property circuitName -->
+<property name='circuitName' flags='r'>
+<type class='java.lang.String'/>
+<description>Slot for the &lt;code&gt;circuitName&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#getCircuitName</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#setCircuitName</tag>
+</property>
+
+<!-- property schedule -->
+<property name='schedule' flags='r'>
+<type module='baja' class='javax.baja.status.BStatusString'/>
+<description>Slot for the &lt;code&gt;schedule&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#getSchedule</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#setSchedule</tag>
+</property>
+
+<!-- property pendingCommand -->
+<property name='pendingCommand' flags='r'>
+<type module='baja' class='javax.baja.status.BStatusString'/>
+<description>Slot for the &lt;code&gt;pendingCommand&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#getPendingCommand</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#setPendingCommand</tag>
+</property>
+
+<!-- property onOffStatus -->
+<property name='onOffStatus' flags='r'>
+<type class='boolean'/>
+<description>Slot for the &lt;code&gt;onOffStatus&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#getOnOffStatus</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#setOnOffStatus</tag>
+</property>
+
+<!-- property DigitalInput -->
+<property name='DigitalInput' flags=''>
+<type class='int'/>
+<description>Slot for the &lt;code&gt;DigitalInput&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#getDigitalInput</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#setDigitalInput</tag>
+</property>
+
+<!-- action InstantOn -->
+<action name='InstantOn' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;InstantOn&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#InstantOn()</tag>
+</action>
+
+<!-- action InstantOff -->
+<action name='InstantOff' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;InstantOff&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#InstantOff()</tag>
+</action>
+
+<!-- action QuerySchedule -->
+<action name='QuerySchedule' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;QuerySchedule&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#QuerySchedule()</tag>
+</action>
+
+<!-- action SetSchedule -->
+<action name='SetSchedule' flags=''>
+<parameter name='arg' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule'/>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;SetSchedule&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#SetSchedule()</tag>
+</action>
+
+<!-- action QueryName -->
+<action name='QueryName' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;QueryName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#QueryName()</tag>
+</action>
+
+<!-- action SetName -->
+<action name='SetName' flags=''>
+<parameter name='arg' module='baja' class='javax.baja.sys.BString'/>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;SetName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#SetName()</tag>
+</action>
+
+<!-- public java.lang.String getCircuitName() -->
+<method name='getCircuitName' public='true'>
+<return class='java.lang.String'/>
+<description>Get the &lt;code&gt;circuitName&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#circuitName</tag>
+</method>
+
+<!-- public void setCircuitName(java.lang.String v) -->
+<method name='setCircuitName' public='true'>
+<parameter name='v' class='java.lang.String'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;circuitName&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#circuitName</tag>
+</method>
+
+<!-- public baja:javax.baja.status.BStatusString getSchedule() -->
+<method name='getSchedule' public='true'>
+<return module='baja' class='javax.baja.status.BStatusString'/>
+<description>Get the &lt;code&gt;schedule&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#schedule</tag>
+</method>
+
+<!-- public void setSchedule(baja:javax.baja.status.BStatusString v) -->
+<method name='setSchedule' public='true'>
+<parameter name='v' module='baja' class='javax.baja.status.BStatusString'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;schedule&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#schedule</tag>
+</method>
+
+<!-- public baja:javax.baja.status.BStatusString getPendingCommand() -->
+<method name='getPendingCommand' public='true'>
+<return module='baja' class='javax.baja.status.BStatusString'/>
+<description>Get the &lt;code&gt;pendingCommand&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#pendingCommand</tag>
+</method>
+
+<!-- public void setPendingCommand(baja:javax.baja.status.BStatusString v) -->
+<method name='setPendingCommand' public='true'>
+<parameter name='v' module='baja' class='javax.baja.status.BStatusString'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;pendingCommand&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#pendingCommand</tag>
+</method>
+
+<!-- public boolean getOnOffStatus() -->
+<method name='getOnOffStatus' public='true'>
+<return class='boolean'/>
+<description>Get the &lt;code&gt;onOffStatus&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#onOffStatus</tag>
+</method>
+
+<!-- public void setOnOffStatus(boolean v) -->
+<method name='setOnOffStatus' public='true'>
+<parameter name='v' class='boolean'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;onOffStatus&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#onOffStatus</tag>
+</method>
+
+<!-- public int getDigitalInput() -->
+<method name='getDigitalInput' public='true'>
+<return class='int'/>
+<description>Get the &lt;code&gt;DigitalInput&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#DigitalInput</tag>
+</method>
+
+<!-- public void setDigitalInput(int v) -->
+<method name='setDigitalInput' public='true'>
+<parameter name='v' class='int'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;DigitalInput&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#DigitalInput</tag>
+</method>
+
+<!-- public void InstantOn() -->
+<method name='InstantOn' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;InstantOn&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#InstantOn</tag>
+</method>
+
+<!-- public void InstantOff() -->
+<method name='InstantOff' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;InstantOff&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#InstantOff</tag>
+</method>
+
+<!-- public void QuerySchedule() -->
+<method name='QuerySchedule' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;QuerySchedule&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#QuerySchedule</tag>
+</method>
+
+<!-- public void SetSchedule(psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule arg) -->
+<method name='SetSchedule' public='true'>
+<parameter name='arg' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule'/>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;SetSchedule&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#SetSchedule</tag>
+</method>
+
+<!-- public void QueryName() -->
+<method name='QueryName' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;QueryName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#QueryName</tag>
+</method>
+
+<!-- public void SetName(baja:javax.baja.sys.BString arg) -->
+<method name='SetName' public='true'>
+<parameter name='arg' module='baja' class='javax.baja.sys.BString'/>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;SetName&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit#SetName</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public void doInstantOn() -->
+<method name='doInstantOn' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doInstantOff() -->
+<method name='doInstantOff' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doSetSchedule(psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule schedule) -->
+<method name='doSetSchedule' public='true'>
+<parameter name='schedule' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuitSchedule'/>
+<return class='void'/>
+</method>
+
+<!-- public void doQuerySchedule() -->
+<method name='doQuerySchedule' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doQueryName() -->
+<method name='doQueryName' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void doSetName(baja:javax.baja.sys.BString name) -->
+<method name='doSetName' public='true'>
+<parameter name='name' module='baja' class='javax.baja.sys.BString'/>
+<return class='void'/>
+</method>
+
+<!-- public void changed(baja:javax.baja.sys.Property property, baja:javax.baja.sys.Context context) -->
+<method name='changed' public='true'>
+<parameter name='property' module='baja' class='javax.baja.sys.Property'/>
+<parameter name='context' module='baja' class='javax.baja.sys.Context'/>
+<return class='void'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

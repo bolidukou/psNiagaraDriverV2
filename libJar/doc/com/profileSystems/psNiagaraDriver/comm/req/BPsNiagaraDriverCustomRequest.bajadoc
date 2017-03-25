@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverCustomRequest'
+  name='BPsNiagaraDriverCustomRequest'
+  packageName='com.profileSystems.psNiagaraDriver.comm.req'
+>
+<extends module='devDriver' class='com.tridium.ddf.comm.req.BDdfRequest'/>
+<implements module='devDriver' class='com.tridium.ddf.comm.req.BIDdfCustomRequest'/>
+
+<!-- public BPsNiagaraDriverCustomRequest() -->
+<constructor name='BPsNiagaraDriverCustomRequest' public='true'>
+</constructor>
+
+<!-- public BPsNiagaraDriverCustomRequest(psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice device, psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType action, baja:javax.baja.util.Array params) -->
+<constructor name='BPsNiagaraDriverCustomRequest' public='true'>
+<parameter name='device' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice'/>
+<parameter name='action' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.identify.BPsNiagaraDriverCustomRequestType'/>
+<parameter name='params' module='baja' class='javax.baja.util.Array'/>
+</constructor>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public baja:javax.baja.sys.BSimple getTag() -->
+<method name='getTag' public='true'>
+<return module='baja' class='javax.baja.sys.BSimple'/>
+</method>
+
+<!-- public byte[] toByteArray() -->
+<method name='toByteArray' public='true'>
+<return class='byte' dimension='1'/>
+</method>
+
+<!-- public devDriver:com.tridium.ddf.comm.rsp.BIDdfResponse processReceive(devDriver:com.tridium.ddf.comm.IDdfDataFrame recieveFrame) throws devDriver:com.tridium.ddf.comm.rsp.DdfResponseException -->
+<method name='processReceive' public='true'>
+<parameter name='recieveFrame' module='devDriver' class='com.tridium.ddf.comm.IDdfDataFrame'/>
+<return module='devDriver' class='com.tridium.ddf.comm.rsp.BIDdfResponse'/>
+<throws module='devDriver' class='com.tridium.ddf.comm.rsp.DdfResponseException'/>
+</method>
+
+<!-- public void processErrorResponse(devDriver:com.tridium.ddf.comm.rsp.DdfResponseException arg0) -->
+<method name='processErrorResponse' public='true'>
+<parameter name='arg0' module='devDriver' class='com.tridium.ddf.comm.rsp.DdfResponseException'/>
+<return class='void'/>
+</method>
+
+<!-- public void processLateResponse(devDriver:com.tridium.ddf.comm.rsp.BIDdfResponse arg0) -->
+<method name='processLateResponse' public='true'>
+<parameter name='arg0' module='devDriver' class='com.tridium.ddf.comm.rsp.BIDdfResponse'/>
+<return class='void'/>
+</method>
+
+<!-- public void processResponse(devDriver:com.tridium.ddf.comm.rsp.BIDdfResponse arg0) -->
+<method name='processResponse' public='true'>
+<parameter name='arg0' module='devDriver' class='com.tridium.ddf.comm.rsp.BIDdfResponse'/>
+<return class='void'/>
+</method>
+
+<!-- public void processTimeout() -->
+<method name='processTimeout' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice GetDevice() -->
+<method name='GetDevice' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice'/>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit GetCircuit() -->
+<method name='GetCircuit' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit'/>
+</method>
+
+<!-- public void SetCircuit(psNiagaraDriver:com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit circuit) -->
+<method name='SetCircuit' public='true'>
+<parameter name='circuit' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.circuit.BPsNiagaraDriverCircuit'/>
+<return class='void'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>
