@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.8.112' createdAt='26-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
 <class
   module='psNiagaraDriver'
   qualifiedName='com.profileSystems.psNiagaraDriver.comm.req.BPsNiagaraDriverReadRequest'

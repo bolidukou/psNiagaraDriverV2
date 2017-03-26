@@ -6,6 +6,7 @@ import javax.baja.control.BControlPoint;
 import javax.baja.sys.*;
 import javax.baja.util.Array;
 
+import com.tridium.ddf.comm.BIDdfCommunicator;
 import com.tridium.ddf.comm.req.BIDdfReadRequest;
 import com.tridium.ddf.comm.req.IDdfReadable;
 import com.tridium.ddf.comm.req.IDdfWritable;
@@ -42,8 +43,7 @@ public class BPsNiagaraDriverDevice extends BDdfTcpDeviceBehindGateway {
 	 deviceId : BDdfIdParams
 	 default {[new BPsNiagaraDriverDeviceId()]}	 
 	 slotfacets{[MGR_INCLUDE]}
-	 
-	 //read 
+	 	 
 	 deviceName:BString
 	 flags { readonly }
 	 default {[ BString.DEFAULT]}
@@ -68,6 +68,10 @@ public class BPsNiagaraDriverDevice extends BDdfTcpDeviceBehindGateway {
        
        QueryLocation()  //return device location
        
+       QueryStatus()  //return status - READ
+       
+       PollDevice()
+       
        //Write
        SetName(arg:BString)   //set device name
        default {[ BString.DEFAULT ]}
@@ -81,8 +85,8 @@ public class BPsNiagaraDriverDevice extends BDdfTcpDeviceBehindGateway {
 	 }
 	 -*/
 /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
-/*@ $com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice(2374502476)1.0$ @*/
-/* Generated Tue Apr 12 22:26:02 CDT 2016 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
+/*@ $com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice(3577264816)1.0$ @*/
+/* Generated Sun Mar 26 02:09:19 CDT 2017 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
 
 ////////////////////////////////////////////////////////////////
 // Property "widgets"
@@ -278,6 +282,38 @@ public class BPsNiagaraDriverDevice extends BDdfTcpDeviceBehindGateway {
   public void QueryLocation() { invoke(QueryLocation,null,null); }
 
 ////////////////////////////////////////////////////////////////
+// Action "QueryStatus"
+////////////////////////////////////////////////////////////////
+  
+  /**
+   * Slot for the <code>QueryStatus</code> action.
+   * @see com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryStatus()
+   */
+  public static final Action QueryStatus = newAction(0,null);
+  
+  /**
+   * Invoke the <code>QueryStatus</code> action.
+   * @see com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryStatus
+   */
+  public void QueryStatus() { invoke(QueryStatus,null,null); }
+
+////////////////////////////////////////////////////////////////
+// Action "PollDevice"
+////////////////////////////////////////////////////////////////
+  
+  /**
+   * Slot for the <code>PollDevice</code> action.
+   * @see com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#PollDevice()
+   */
+  public static final Action PollDevice = newAction(0,null);
+  
+  /**
+   * Invoke the <code>PollDevice</code> action.
+   * @see com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#PollDevice
+   */
+  public void PollDevice() { invoke(PollDevice,null,null); }
+
+////////////////////////////////////////////////////////////////
 // Action "SetName"
 ////////////////////////////////////////////////////////////////
   
@@ -443,19 +479,18 @@ public class BPsNiagaraDriverDevice extends BDdfTcpDeviceBehindGateway {
                                           BPsNiagaraDriverCustomRequestType.CheckStatusUpdate,
                                           params);
     
-    
-    getDdfCommunicator().getLog().trace("doCheckUnitStatus:" + "Attempt-" + attempt +
+    if(getDdfCommunicator().getLog().isTraceOn()){
+      getDdfCommunicator().getLog().trace("doCheckUnitStatus:" + "Attempt-" + attempt +
                                             ";lastFrameReceived-" + lastFrameReceived +
                                             ";maxRetry-" + maxRetry + ";expireTime-" + expireTime);
+    }
     communicate(request);
   }
 
   public void communicate(BPsNiagaraDriverCustomRequest request){
     getDdfCommunicator().communicate(request);
   }
-
-  public void doRead()
-  {
+  public void doRead(BIDdfCommunicator communicator){
 
     Vector myDdfPollables = new Vector();
 
@@ -471,24 +506,24 @@ public class BPsNiagaraDriverDevice extends BDdfTcpDeviceBehindGateway {
       myDdfPollables.add((BDdfProxyExt) points[i].getProxyExt());
     }
 
-//    points = getCircuits().getPoints();
-//
-//    for (int i = 0; i < points.length; i++)
-//    {
-//      myDdfPollables.add((BDdfProxyExt) points[i].getProxyExt());
-//    }
-
     com.tridium.ddf.poll.BIDdfPollable[] arrayOfBIDdfPollable =
         new com.tridium.ddf.poll.BIDdfPollable[myDdfPollables.size()];
     myDdfPollables.copyInto(arrayOfBIDdfPollable);
 
-    trace("Widgets count:" + myDdfPollables.size());
+    if(communicator.getLog().isTraceOn()){
+      communicator.getLog().trace("Read for widgets count:" + myDdfPollables.size());
+    }
+    
     if (myDdfPollables.size() > 0)
     {
       BIDdfReadRequest request = ((BDdfProxyExt) myDdfPollables.get(0)).makePollRequest();
       request.setReadableSource(arrayOfBIDdfPollable);
-      getDdfCommunicator().communicate(request);
+      communicator.communicate(request);
     }
   }
-
+  
+  public void doPollDevice()
+  {
+    this.doRead(this.getDdfCommunicator());
+  } 
 }

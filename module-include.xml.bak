@@ -113,4 +113,5 @@
   <type name="PsVolts" class="com.profileSystems.psNiagaraDriver.Widget.BPsVolts"/>
   <type name="PsCircuitName" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsCircuitName"/>
   <type name="PsNiagaraDriverPollGroup" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollGroup"/>  
+  <type name="PsNiagaraDriverUnsolicitedMgr" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverUnsolicitedMgr"/>
 </types>

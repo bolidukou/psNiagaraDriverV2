@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.8.112' createdAt='26-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
 <class
   module='psNiagaraDriver'
   qualifiedName='com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice'
@@ -76,6 +76,20 @@
 <return class='void'/>
 <description>Slot for the &lt;code&gt;QueryLocation&lt;/code&gt; action.</description>
 <tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryLocation()</tag>
+</action>
+
+<!-- action QueryStatus -->
+<action name='QueryStatus' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;QueryStatus&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryStatus()</tag>
+</action>
+
+<!-- action PollDevice -->
+<action name='PollDevice' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;PollDevice&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#PollDevice()</tag>
 </action>
 
 <!-- action SetName -->
@@ -220,6 +234,20 @@
 <tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryLocation</tag>
 </method>
 
+<!-- public void QueryStatus() -->
+<method name='QueryStatus' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;QueryStatus&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#QueryStatus</tag>
+</method>
+
+<!-- public void PollDevice() -->
+<method name='PollDevice' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;PollDevice&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice#PollDevice</tag>
+</method>
+
 <!-- public void SetName(baja:javax.baja.sys.BString arg) -->
 <method name='SetName' public='true'>
 <parameter name='arg' module='baja' class='javax.baja.sys.BString'/>
@@ -321,8 +349,14 @@
 <return class='void'/>
 </method>
 
-<!-- public void doRead() -->
+<!-- public void doRead(devDriver:com.tridium.ddf.comm.BIDdfCommunicator communicator) -->
 <method name='doRead' public='true'>
+<parameter name='communicator' module='devDriver' class='com.tridium.ddf.comm.BIDdfCommunicator'/>
+<return class='void'/>
+</method>
+
+<!-- public void doPollDevice() -->
+<method name='doPollDevice' public='true'>
 <return class='void'/>
 </method>
 

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/alarm.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/baja.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/control.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/devDriver.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/driver.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/platform.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/devIpDriver.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/js.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/bajaui.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/workbench.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.112/modules/gx.jar" sourcepath="C:/Niagara/Niagara-3.7.106/modules/docBajaEclipse.zip"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Niagara-3.8.112"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/baja.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/devkit.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/driver.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/devDriver.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/devIpDriver.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/bajaScript.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/bajaui.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/control.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/hx.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/gx.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/alarm.jar"/>
+	<classpathentry kind="lib" path="C:/Niagara/Niagara-3.8.111/modules/workbench.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

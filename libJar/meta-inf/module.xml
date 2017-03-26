@@ -3,12 +3,12 @@
   name = "psNiagaraDriver"
   bajaVersion = "3.2"
   vendor = "Profile Systems"
-  vendorVersion = "0.17.3.22"
+  vendorVersion = "0.17.3.26"
   description = "Profile Systems Niagara Driver V2"
   preferredSymbol = "ps"
-  buildDate = "22-Mar-17 21:33 CDT"
-  buildMillis = "1490236413770"
-  buildHost = "WINDOWS-7ND9PUR"
+  buildDate = "26-Mar-17 04:42 CDT"
+  buildMillis = "1490521356873"
+  buildHost = "null"
 >
 
 <dependencies>
@@ -142,6 +142,7 @@
   <type name="PsCircuitName" class="com.profileSystems.psNiagaraDriver.CircuitWidget.BPsCircuitName"/>
   <type name="PsNiagaraDriverPollGroup" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollGroup"/>
   <type name="PsNiagaraDriverUnsolicitedMgr" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverUnsolicitedMgr"/>
+  <type name="PsNiagaraDriverPollWorker" class="com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker"/>
 </types>
 
 </module>

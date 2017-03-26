@@ -264,7 +264,7 @@ public class BPsNiagaraDriverCustomRequest extends BDdfRequest implements BIDdfC
         if (read)
         {
           // poll
-          m_device.doRead();
+          m_device.doPollDevice();
 
           // BDdfPollGroup group =BPsNiagaraDriverPollGroup.getPollGroupByPollable(proxyExt );
           // group.makePollRequest();

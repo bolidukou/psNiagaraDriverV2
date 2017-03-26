@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='22-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.8.112' createdAt='26-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
 <class
   module='psNiagaraDriver'
   qualifiedName='com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork'
@@ -23,6 +23,21 @@
 <tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#getCredentials</tag>
 <tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#setCredentials</tag>
 </property>
+
+<!-- property psPollWorker -->
+<property name='psPollWorker' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker'/>
+<description>Slot for the &lt;code&gt;psPollWorker&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#getPsPollWorker</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#setPsPollWorker</tag>
+</property>
+
+<!-- action PollAll -->
+<action name='PollAll' flags=''>
+<return class='void'/>
+<description>Slot for the &lt;code&gt;PollAll&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#PollAll()</tag>
+</action>
 
 <!-- public BPsNiagaraDriverGatewayNetwork() -->
 <constructor name='BPsNiagaraDriverGatewayNetwork' public='true'>
@@ -58,9 +73,46 @@
 <tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#Credentials</tag>
 </method>
 
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker getPsPollWorker() -->
+<method name='getPsPollWorker' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker'/>
+<description>Get the &lt;code&gt;psPollWorker&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#psPollWorker</tag>
+</method>
+
+<!-- public void setPsPollWorker(psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker v) -->
+<method name='setPsPollWorker' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;psPollWorker&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#psPollWorker</tag>
+</method>
+
+<!-- public void PollAll() -->
+<method name='PollAll' public='true'>
+<return class='void'/>
+<description>Invoke the &lt;code&gt;PollAll&lt;/code&gt; action.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#PollAll</tag>
+</method>
+
 <!-- public baja:javax.baja.sys.Type getType() -->
 <method name='getType' public='true'>
 <return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public void doPollAll() -->
+<method name='doPollAll' public='true'>
+<return class='void'/>
+</method>
+
+<!-- protected void enableComm() -->
+<method name='enableComm' protected='true'>
+<return class='void'/>
+</method>
+
+<!-- public void PollAllDevices() -->
+<method name='PollAllDevices' public='true'>
+<return class='void'/>
 </method>
 
 <!-- public baja:javax.baja.sys.Type getDeviceFolderType() -->

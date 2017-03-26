@@ -25,7 +25,7 @@ public class BPsNiagaraDriverReceiver
    -*/
 /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
 /*@ $com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverReceiver(2006525606)1.0$ @*/
-/* Generated Tue Apr 12 22:26:01 CDT 2016 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
+/* Generated Sat Mar 25 02:40:04 CDT 2017 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
 
 ////////////////////////////////////////////////////////////////
 // Property "responseTimeout"
@@ -56,7 +56,8 @@ public class BPsNiagaraDriverReceiver
   
   public Type getType() { return TYPE; }
   public static final Type TYPE = Sys.loadType(BPsNiagaraDriverReceiver.class);
-  /* + ------------ END BAJA AUTO GENERATED CODE -------------- + */
+
+/*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
 
   public int isStartOfFrame(IDdfDataFrame frameSoFar)
   {

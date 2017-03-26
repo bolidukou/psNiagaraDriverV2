@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.8.112' createdAt='26-Mar-2017' createdOn='WINDOWS-7ND9PUR'>
+<class
+  module='psNiagaraDriver'
+  qualifiedName='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker'
+  name='BPsNiagaraDriverPollWorker'
+  packageName='com.profileSystems.psNiagaraDriver.comm'
+>
+<extends module='baja' class='javax.baja.sys.BComponent'/>
+<implements class='java.lang.Runnable'/>
+
+<!-- property pollWorkerEnabled -->
+<property name='pollWorkerEnabled' flags=''>
+<type class='boolean'/>
+<description>Slot for the &lt;code&gt;pollWorkerEnabled&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#getPollWorkerEnabled</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#setPollWorkerEnabled</tag>
+</property>
+
+<!-- property pollFrequency -->
+<property name='pollFrequency' flags=''>
+<type module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Slot for the &lt;code&gt;pollFrequency&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#getPollFrequency</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#setPollFrequency</tag>
+</property>
+
+<!-- property psCommunicator -->
+<property name='psCommunicator' flags=''>
+<type module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator'/>
+<description>Slot for the &lt;code&gt;psCommunicator&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#getPsCommunicator</tag>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#setPsCommunicator</tag>
+</property>
+
+<!-- public boolean getPollWorkerEnabled() -->
+<method name='getPollWorkerEnabled' public='true'>
+<return class='boolean'/>
+<description>Get the &lt;code&gt;pollWorkerEnabled&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#pollWorkerEnabled</tag>
+</method>
+
+<!-- public void setPollWorkerEnabled(boolean v) -->
+<method name='setPollWorkerEnabled' public='true'>
+<parameter name='v' class='boolean'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;pollWorkerEnabled&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#pollWorkerEnabled</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.BRelTime getPollFrequency() -->
+<method name='getPollFrequency' public='true'>
+<return module='baja' class='javax.baja.sys.BRelTime'/>
+<description>Get the &lt;code&gt;pollFrequency&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#pollFrequency</tag>
+</method>
+
+<!-- public void setPollFrequency(baja:javax.baja.sys.BRelTime v) -->
+<method name='setPollFrequency' public='true'>
+<parameter name='v' module='baja' class='javax.baja.sys.BRelTime'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;pollFrequency&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#pollFrequency</tag>
+</method>
+
+<!-- public psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator getPsCommunicator() -->
+<method name='getPsCommunicator' public='true'>
+<return module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator'/>
+<description>Get the &lt;code&gt;psCommunicator&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#psCommunicator</tag>
+</method>
+
+<!-- public void setPsCommunicator(psNiagaraDriver:com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator v) -->
+<method name='setPsCommunicator' public='true'>
+<parameter name='v' module='psNiagaraDriver' class='com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverCommunicator'/>
+<return class='void'/>
+<description>Set the &lt;code&gt;psCommunicator&lt;/code&gt; property.</description>
+<tag name='see'>com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollWorker#psCommunicator</tag>
+</method>
+
+<!-- public baja:javax.baja.sys.Type getType() -->
+<method name='getType' public='true'>
+<return module='baja' class='javax.baja.sys.Type'/>
+</method>
+
+<!-- public void started() -->
+<method name='started' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void stationStarted() throws java.lang.Exception -->
+<method name='stationStarted' public='true'>
+<return class='void'/>
+<throws class='java.lang.Exception'/>
+</method>
+
+<!-- public void stopped() -->
+<method name='stopped' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void startThread() -->
+<method name='startThread' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void stopThread() -->
+<method name='stopThread' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public void run() -->
+<method name='run' public='true'>
+<return class='void'/>
+</method>
+
+<!-- public final static baja:javax.baja.sys.Type TYPE -->
+<field name='TYPE' public='true' static='true' final='true'>
+<type module='baja' class='javax.baja.sys.Type'/>
+</field>
+
+</class>
+</bajadoc>

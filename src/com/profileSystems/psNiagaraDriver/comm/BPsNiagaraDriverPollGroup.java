@@ -1,5 +1,6 @@
 package com.profileSystems.psNiagaraDriver.comm;
 
+import javax.baja.driver.util.BPollFrequency;
 import javax.baja.sys.Sys;
 import javax.baja.sys.Type;
 
@@ -29,6 +30,20 @@ public class BPsNiagaraDriverPollGroup extends BDdfPollGroup
   public static final Type TYPE = Sys.loadType(BPsNiagaraDriverPollGroup.class);
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
+  
+  protected void registerPollable(BIDdfPollable paramBIDdfPollable)
+  {
+    if (paramBIDdfPollable.getDdfCommunicator().getLog().isTraceOn()) {
+       String resultString = "registerPollable: " + paramBIDdfPollable;
+       paramBIDdfPollable.getDdfCommunicator().getLog().trace(resultString);
+    }
+    super.registerPollable(paramBIDdfPollable);
+  }
+  
+  public BPollFrequency getPollFrequency()
+  {
+    return super.getPollFrequency();
+  }
   
   public static  BDdfPollGroup getPollGroupByPollable(BIDdfPollable pollable){    
     return getPollGroup(pollable);

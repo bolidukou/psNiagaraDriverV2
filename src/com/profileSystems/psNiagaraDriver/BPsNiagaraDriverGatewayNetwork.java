@@ -1,11 +1,20 @@
 package com.profileSystems.psNiagaraDriver;
 
+import java.util.Vector;
+
+import com.tridium.ddf.comm.req.BIDdfReadRequest;
+import com.tridium.ddf.comm.req.BIDdfRequest;
+import com.tridium.ddf.comm.req.util.DdfRequestUtil;
+import com.tridium.ddf.point.BDdfProxyExt;
 import com.tridium.ddfIp.tcp.*;
 import com.profileSystems.psNiagaraDriver.comm.*;
 import com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDevice;
 import com.profileSystems.psNiagaraDriver.device.BPsNiagaraDriverDeviceFolder;
 
+import javax.baja.control.BControlPoint;
+import javax.baja.driver.BDevice;
 import javax.baja.sys.*;
+import javax.baja.util.Array;
 
 public class BPsNiagaraDriverGatewayNetwork extends BDdfTcpGatewayNetwork {
 	/*-
@@ -19,14 +28,21 @@ public class BPsNiagaraDriverGatewayNetwork extends BDdfTcpGatewayNetwork {
 	 Credentials : BPsNiagaraDriverGatewayNetworkCredential
 	 default{[ new BPsNiagaraDriverGatewayNetworkCredential() ]}
 	 
+	 psPollWorker : BPsNiagaraDriverPollWorker  
+   default{[ new BPsNiagaraDriverPollWorker() ]}
+   
 	 //monitor : BPsNiagaraDriverPingMonitor
    //default{[ new BPsNiagaraDriverPingMonitor() ]}
 	 }
+	 actions
+     {
+       PollAll() //return device name and circuits name
+     }
 	 }
 	 -*/
 /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
-/*@ $com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork(307592736)1.0$ @*/
-/* Generated Mon Mar 17 20:50:51 CDT 2014 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
+/*@ $com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork(99151135)1.0$ @*/
+/* Generated Sun Mar 26 04:34:41 CDT 2017 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
 
 ////////////////////////////////////////////////////////////////
 // Property "communicator"
@@ -75,6 +91,45 @@ public class BPsNiagaraDriverGatewayNetwork extends BDdfTcpGatewayNetwork {
   public void setCredentials(BPsNiagaraDriverGatewayNetworkCredential v) { set(Credentials,v,null); }
 
 ////////////////////////////////////////////////////////////////
+// Property "psPollWorker"
+////////////////////////////////////////////////////////////////
+  
+  /**
+   * Slot for the <code>psPollWorker</code> property.
+   * @see com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#getPsPollWorker
+   * @see com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#setPsPollWorker
+   */
+  public static final Property psPollWorker = newProperty(0, new BPsNiagaraDriverPollWorker(),null);
+  
+  /**
+   * Get the <code>psPollWorker</code> property.
+   * @see com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#psPollWorker
+   */
+  public BPsNiagaraDriverPollWorker getPsPollWorker() { return (BPsNiagaraDriverPollWorker)get(psPollWorker); }
+  
+  /**
+   * Set the <code>psPollWorker</code> property.
+   * @see com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#psPollWorker
+   */
+  public void setPsPollWorker(BPsNiagaraDriverPollWorker v) { set(psPollWorker,v,null); }
+
+////////////////////////////////////////////////////////////////
+// Action "PollAll"
+////////////////////////////////////////////////////////////////
+  
+  /**
+   * Slot for the <code>PollAll</code> action.
+   * @see com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#PollAll()
+   */
+  public static final Action PollAll = newAction(0,null);
+  
+  /**
+   * Invoke the <code>PollAll</code> action.
+   * @see com.profileSystems.psNiagaraDriver.BPsNiagaraDriverGatewayNetwork#PollAll
+   */
+  public void PollAll() { invoke(PollAll,null,null); }
+
+////////////////////////////////////////////////////////////////
 // Type
 ////////////////////////////////////////////////////////////////
   
@@ -90,8 +145,30 @@ public class BPsNiagaraDriverGatewayNetwork extends BDdfTcpGatewayNetwork {
         
         getMonitor().setPingFrequency(BRelTime.makeMinutes(2));
         getMonitor().setStartupAlarmDelay(BRelTime.makeMinutes(5));
+  }  
+  
+  public void doPollAll(){
+    this.PollAllDevices();
   }
-	
+  
+  protected void enableComm(){
+    super.enableComm();
+    this.getPsPollWorker().getPsCommunicator().startCommunicating();
+  }
+  
+  public void PollAllDevices(){
+    BDevice[] devices = this.getDevices();
+    BPsNiagaraDriverCommunicator communicator = this.getPsPollWorker().getPsCommunicator(); 
+    for (int i = 0; i < devices.length; i++)
+    {
+      BDevice device = devices[i];
+      if ((device instanceof BPsNiagaraDriverDevice))
+      {
+        ((BPsNiagaraDriverDevice)device).doRead(communicator);        
+      }
+    }
+  }
+  
 	public Type getDeviceFolderType() {
 		return BPsNiagaraDriverDeviceFolder.TYPE;
 	}

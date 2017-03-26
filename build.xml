@@ -6,7 +6,7 @@
   preferredSymbol = "ps"
   description = "Profile Systems Niagara Driver V2"
   vendor = "Profile Systems"
-  vendorVersion="0.17.03.22"
+  vendorVersion="0.17.03.26"
 >
 
   <!-- Dependencies -->

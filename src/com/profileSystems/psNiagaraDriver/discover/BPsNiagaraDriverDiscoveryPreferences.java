@@ -1,6 +1,5 @@
 package com.profileSystems.psNiagaraDriver.discover;
 
-
 import javax.baja.sys.BBoolean;
 import javax.baja.sys.BFacets;
 import javax.baja.sys.BRelTime;
@@ -18,14 +17,12 @@ public class BPsNiagaraDriverDiscoveryPreferences extends  BDdfAutoDiscoveryPref
 	 {
 	 timeout:BRelTime
 	 default{[BRelTime.makeSeconds(30)]}
-	 slotfacets{[BFacets.make(BFacets.make(BFacets.SHOW_MILLISECONDS,BBoolean.TRUE),
- BFacets.MIN,BRelTime.make(0))]}
 	 }
 	 }
 	 -*/
 /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
-/*@ $com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences(3482276161)1.0$ @*/
-/* Generated Thu Jul 25 00:27:13 CDT 2013 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
+/*@ $com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences(3479671317)1.0$ @*/
+/* Generated Sat Mar 25 23:49:12 CDT 2017 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
 
 ////////////////////////////////////////////////////////////////
 // Property "timeout"
@@ -36,8 +33,7 @@ public class BPsNiagaraDriverDiscoveryPreferences extends  BDdfAutoDiscoveryPref
    * @see com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences#getTimeout
    * @see com.profileSystems.psNiagaraDriver.discover.BPsNiagaraDriverDiscoveryPreferences#setTimeout
    */
-  public static final Property timeout = newProperty(0, BRelTime.makeSeconds(30),BFacets.make(BFacets.make(BFacets.SHOW_MILLISECONDS,BBoolean.TRUE),
- BFacets.MIN,BRelTime.make(0)));
+  public static final Property timeout = newProperty(0, BRelTime.makeSeconds(30),null);
   
   /**
    * Get the <code>timeout</code> property.
@@ -59,4 +55,5 @@ public class BPsNiagaraDriverDiscoveryPreferences extends  BDdfAutoDiscoveryPref
   public static final Type TYPE = Sys.loadType(BPsNiagaraDriverDiscoveryPreferences.class);
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
+
 }

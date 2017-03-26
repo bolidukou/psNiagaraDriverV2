@@ -34,7 +34,7 @@ public class BPsNiagaraDriverPollScheduler extends BDdfPollScheduler {
 	 -*/
 /*+ ------------ BEGIN BAJA AUTO GENERATED CODE ------------ +*/
 /*@ $com.profileSystems.psNiagaraDriver.comm.BPsNiagaraDriverPollScheduler(2397094468)1.0$ @*/
-/* Generated Mon Mar 17 20:10:58 CDT 2014 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
+/* Generated Sun Mar 26 02:29:46 CDT 2017 by Slot-o-Matic 2000 (c) Tridium, Inc. 2000 */
 
 ////////////////////////////////////////////////////////////////
 // Property "slowRate"
